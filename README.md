@@ -1,6 +1,9 @@
 
 
 <h1 align="center">🐾 PetAmigo 🐾</h1> 
+<p align="center">
+<img src="https://img.shields.io/badge/DigitalHouse%20-%23F7DF1E.svg?&style=for-the-badge&color=DD0031" />
+ </p>
 
 ## Sobre o Projeto
 
