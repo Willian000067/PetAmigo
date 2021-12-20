@@ -1,0 +1,53 @@
+
+
+
+header{
+    background-color: rgba(26,81,99,255);
+    color: #fff;
+    height: 70px;
+}
+nav{
+    
+}
+.logo{
+    color:white;
+    font-weight: bold;
+}
+
+.logo:hover{
+    color:white;
+    
+}
+.nav-link{
+    margin-top: 5px;
+    color: #fff;
+}
+.nav-link:hover{
+    color:#e89588;
+
+}
+.nav-item{
+    color: #fff;
+}
+
+.entrar{
+    margin-top: 10px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: #e89588;
+}
+.entrar:hover{
+    color: #fc6048;
+
+}
+
+.btn{
+    background-color:#fc9b8b;
+    color:white;
+
+    }
+
+    .btn:hover{
+        background-color: #fc745f;
+        color: white;
+    }
