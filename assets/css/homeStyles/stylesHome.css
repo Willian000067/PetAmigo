@@ -18,16 +18,20 @@ nav{
     color:white;
     
 }
-.nav-link{
+.link{
     margin-top: 5px;
     color: #fff;
+    text-decoration: none;
 }
-.nav-link:hover{
+.link:hover{
     color:#e89588;
 
 }
 .nav-item{
     color: #fff;
+    margin-left: 15px;
+    font-weight: 300;
+    
 }
 
 .entrar{
@@ -41,13 +45,72 @@ nav{
 
 }
 
-.btn{
+.cadastro{
     background-color:#fc9b8b;
     color:white;
 
     }
 
-    .btn:hover{
+    .cadastro:hover{
         background-color: #fc745f;
         color: white;
     }
+    .active{
+
+    }
+
+.main{
+    height:400px;
+    background-color: rgba(26,81,99,255);
+    position: relative;
+}    
+
+.busca{
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 80%;
+    background-color:#94aeb6;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 30px;
+    margin-left: 20px;
+    
+}
+
+.busca-campos{
+   
+}
+
+.input-one{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: white;
+    width:350px;
+    
+}
+label{
+    font-size:20px;
+}
+select{
+    
+    margin-top: 10px;
+    border-radius: 10px;
+    height:35px;
+    background-color:#e9eff0;
+}
+option{
+    height:50px;
+}
+
+.pesquisar{
+    background-color:#1a5163;
+    margin-top: 30px;
+    padding: 18px;
+    color: white;
+}
+
+.pesquisar:hover{
+    color: white;
+}
