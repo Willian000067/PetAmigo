@@ -65,6 +65,31 @@ nav{
     position: relative;
 }    
 
+.titulos-section{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.h1-section{
+   padding-top: 30px;
+   font-weight: bold;
+   color: #fc9b8b;
+   
+}
+
+.h1-section-sub{
+    
+    font-weight: bold;
+    color: #fff;
+ }
+ 
+ .p-section{
+     color: white;
+     font-weight: bold;
+     font-size: 17px;   
+ }
+ 
 .busca{
     position: absolute;
     bottom: 0;
@@ -79,6 +104,9 @@ nav{
 
 .busca-campos{
    
+}
+.row{
+    margin-left: 30px;
 }
 
 .input-one{
