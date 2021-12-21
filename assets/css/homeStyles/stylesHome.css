@@ -5,6 +5,13 @@ header{
     background-color: rgba(26,81,99,255);
     color: #fff;
     height: 70px;
+    position: fixed;
+
+         z-index:999;
+        top:0;
+        left:0;
+        right: 0;
+   
 }
 nav{
     
@@ -63,6 +70,7 @@ nav{
     }
 
 .main{
+    margin-top:50px ;
     height:400px;
     background-color: rgba(26,81,99,255);
     position: relative;
