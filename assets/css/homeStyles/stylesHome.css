@@ -13,6 +13,9 @@ nav{
     color:white;
     font-weight: bold;
 }
+.fa-paw{
+    color:#fc9b8b;
+}
 
 .logo:hover{
     color:white;
@@ -141,4 +144,6 @@ option{
 
 .pesquisar:hover{
     color: white;
+    background-color:#032430;
+
 }
