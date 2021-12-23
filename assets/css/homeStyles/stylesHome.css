@@ -280,10 +280,20 @@ p{
 
 .sobre{
     margin-top: 100px;
+    position: relative;
 }
+.sobre-left {
+    
+}
+
 .sobre-title{
-    width: 50%;
-    flex:1
+    width: 400px;
+    position: absolute;
+    margin-top: 30px;
+    height: 500px;
+    width: 70%;
+    margin-left: 20px;
+    
 }
 .h2-sobre{
     font-weight: bold;
@@ -295,12 +305,13 @@ p{
     font-weight: bold;
 }
 
-.sobre-right{
-    flex:1;
-}
+
 
 .button-carousel{
+    position: relative;
     margin-left: 5px;
+    top: 150px;
+    right: -500px;
     width:50px;
     height:50px;
     background-color:  #fff;
@@ -319,15 +330,31 @@ p{
 }
 
 .items{
-    width:400px;
-    background-color: hsl(195, 58%, 25%);
+   
+    width:1000px;
+    margin-top: 100px;
     height: 100px;
+    margin-bottom: 15px;
+    
+}
+.test{
+    
+    margin-right: 30px;
+    width: 500px;  
+    background-color: hsl(195, 58%, 25%);
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-    margin-bottom: 15px;
-    
+}
+.test-one{
+    width: 500px; 
+    margin-left: 30px;
+    background-color: hsl(195, 58%, 25%);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .p-items{
@@ -347,4 +374,96 @@ p{
 
 i{
     background-color: #fc9b8b;
+}
+
+footer{
+    margin-top: 100px;
+    height: 80px;
+    width: 100%;
+}
+.footer-section-one{
+    flex: 1;  
+    margin-left: 50px;  
+}
+
+.footer-link {
+    color:#1a0061;
+    text-decoration: none;
+    font-weight: bold;  
+    font-size:14px;
+}
+
+
+.footer-link:hover {
+    
+    text-decoration: none;
+}
+.footer-section-one{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-h2{
+    font-size: 16px;
+    font-weight: bold;
+    color:#00445a;
+}
+
+.footer-h2:hover{
+    
+    color:#0b003d;
+}
+
+.p{
+    margin-top: 20px;
+    
+}
+
+.p p{
+    color:#0386b6;
+    font-weight: 400;
+}
+
+.p p:hover{
+    color:#0386b6;
+    font-weight: 600;
+    color:#1a5163;
+}
+
+a{
+    text-decoration:none;
+}
+.footer-section{
+    border-bottom: 1px solid rgb(172, 172, 172);
+}
+
+.copyright{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+   
+    
+
+}
+
+.logo-footer h3{
+    font-weight: 600;
+    color: hsl(195, 58%, 25%);
+    margin-left: 10px;
+    text-align: center;
+}
+
+.paw{
+    margin-top: 2px;
+    font-size: 25px;
+}
+.copyright-footer{
+text-align: center;
+margin-left: 100px;
+font-weight: bold;
+padding-top:8px;
+}
+
+.copyright-footer p{
+   
 }
