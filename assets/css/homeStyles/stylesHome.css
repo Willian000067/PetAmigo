@@ -196,14 +196,7 @@ option{
     flex:1;
 }
 
-.services-two-secundary{
-    margin-left: 250px;
-    width: 170px;
-    height: 200px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    border: 1px dashed #333;
-}
+
 
 .title-services{
     margin-left: 40px;
@@ -466,4 +459,32 @@ padding-top:8px;
 
 .copyright-footer p{
    
+}
+
+.dog-services{
+    position: absolute;
+    
+    height: 250px;
+    margin-left: 100px;;
+
+background: url(.jpg);
+border-radius: 250px 250px 0px 0px;
+bottom: -120px;
+
+
+}
+
+.border{
+    /* unsplash:eoqnr8ikwFE */
+
+position: relative;
+width: 200px;
+height: 250px;
+
+top:30px;
+left: 110px;
+border: 5px solid #003f58;
+box-sizing: border-box;
+border-radius: 250px 250px 0px 0px;
+
 }
