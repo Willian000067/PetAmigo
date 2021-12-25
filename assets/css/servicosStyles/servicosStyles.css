@@ -125,3 +125,80 @@ border-radius: 250px 250px 0px 0px;
     border-radius: 250px 250px 0px 0px;
 
     }
+
+.services{
+    margin-top: 150px;
+    position: relative;
+}    
+
+
+
+.image-dog img{
+    /* unsplash:NE0XGVKTmcA */
+
+position: relative;
+width: 150px;
+height: 150px;
+left: 270px;
+top:20px;
+
+
+
+
+background: url(.jpg);
+border-radius: 80%;
+
+}
+.border-dog{
+position: absolute;
+width: 200px;
+height: 100px;
+left: 200px;
+bottom:150px;
+border-radius: 100%;
+background: #FC9685;
+
+
+
+
+
+}
+
+.border-dog-one{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 380px;
+    bottom:150px;
+    border-radius: 100%;
+    background: #FC9685;
+    }
+    .border-dog-two{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 405px;
+        bottom:130px;
+        border-radius: 100%;
+        background: #FC9685;
+        }
+        .border-dog-three{
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            left: 430px;
+            bottom:120px;
+            border-radius: 100%;
+            background: #FC9685;
+            }
+         
+h3{
+    margin-left: 45px;
+    margin-top: 17px;
+    color: white;
+    font-size: 26px;
+}
+
+.services-section{
+    
+}
