@@ -139,8 +139,8 @@ border-radius: 250px 250px 0px 0px;
 position: relative;
 width: 150px;
 height: 150px;
-left: 270px;
-top:20px;
+left: 230px;
+bottom:10px;
 
 
 
@@ -153,8 +153,8 @@ border-radius: 80%;
 position: absolute;
 width: 200px;
 height: 100px;
-left: 200px;
-bottom:150px;
+left: 150px;
+bottom:180px;
 border-radius: 100%;
 background: #FC9685;
 
@@ -168,8 +168,8 @@ background: #FC9685;
     position: absolute;
     width: 30px;
     height: 30px;
-    left: 380px;
-    bottom:150px;
+    left: 310px;
+    bottom:170px;
     border-radius: 100%;
     background: #FC9685;
     }
@@ -177,8 +177,8 @@ background: #FC9685;
         position: absolute;
         width: 20px;
         height: 20px;
-        left: 405px;
-        bottom:130px;
+        left: 335px;
+        bottom:155px;
         border-radius: 100%;
         background: #FC9685;
         }
@@ -186,11 +186,21 @@ background: #FC9685;
             position: absolute;
             width: 15px;
             height: 15px;
-            left: 430px;
-            bottom:120px;
+            left: 355px;
+            bottom:140px;
             border-radius: 100%;
             background: #FC9685;
             }
+
+            .border-dog-four{
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                left: 375px;
+                bottom:130px;
+                border-radius: 100%;
+                background: #FC9685;
+                }
          
 h3{
     margin-left: 45px;
@@ -199,6 +209,78 @@ h3{
     font-size: 26px;
 }
 
-.services-section{
+.services-section-one{
+    /* Rectangle 7 */
+margin-left: 15px;
+position: absolute;
+width: 280px;
+height: 250px;
+left: 630px;
+bottom:5px;
+
+background-color: #E1EFF3;
+border-radius: 250px 250px 0px 0px;
+
     
+}
+
+.services-section-title{
+
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.border-icone{
+    position:relative;
+    height: 45px;
+    width: 45px;
+    left:109px;
+    top:45px;
+    border-radius:100%;
+    background: #FC9685;
+
+}
+.icone-dog{
+    
+    position: relative;
+    top:15px;
+    left: 123px;
+    color:#fff;
+}
+.services-section-title h3{
+    margin-top: 50px;
+    padding-left:12px;
+    font-size: 24px;
+    color: #2f6272;
+}
+
+.services-section-title p{
+    text-align: center;
+    padding-left:12px;
+    color: #2f6272;
+}
+
+a{
+    text-decoration: none;
+}
+
+.services-section-two{
+    
+    /* Rectangle 8 */
+    margin-left: 15px;
+    position: absolute;
+    width: 280px;
+    height: 250px;
+    left: 913px;
+    bottom:6px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+border-radius: 250px 250px 0px 0px;
+
+}
+.veterinario{
+    text-align: center;
+    margin-right: 45px;
 }
