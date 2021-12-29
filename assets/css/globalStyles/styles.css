@@ -16,4 +16,73 @@ body{
 }
 
 
+header{
+    background-color: rgba(26,81,99,255);
+    color: #fff;
+    height: 70px;
+    position: fixed;
 
+         z-index:999;
+        top:0;
+        left:0;
+        right: 0;
+   
+}
+nav{
+    
+}
+.logo{
+    color:white;
+    font-weight: bold;
+}
+.fa-paw{
+    color:#fc9b8b;
+}
+
+.logo:hover{
+    color:white;
+    
+}
+.link{
+    margin-top: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+.link:hover{
+    color:#e89588;
+
+}
+.nav-item{
+    color: #fff;
+    margin-left: 25px;
+    font-weight: bold;
+    
+}
+
+.entrar{
+    margin-top: 10px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: #e89588;
+}
+.entrar:hover{
+    color: #fc6048;
+
+}
+
+.cadastro{
+    background-color:#fc9b8b;
+    color:white;
+
+    }
+
+    .cadastro:hover{
+        background-color: #fc745f;
+        color: white;
+    }
+    .active{
+
+    }
+
+
+    
