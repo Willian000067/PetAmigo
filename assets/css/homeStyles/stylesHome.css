@@ -399,13 +399,10 @@ footer{
 .footer-h2{
     font-size: 16px;
     font-weight: bold;
-    color:#00445a;
+    color:#005875;
 }
 
-.footer-h2:hover{
-    
-    color:#0b003d;
-}
+
 
 .p{
     margin-top: 20px;
@@ -458,7 +455,8 @@ padding-top:8px;
 }
 
 .copyright-footer p{
-   
+    color:#003f58;
+    font-weight: 500;
 }
 
 .dog-services{
