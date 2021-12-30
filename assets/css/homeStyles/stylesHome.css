@@ -422,6 +422,10 @@ footer{
 
 a{
     text-decoration:none;
+    color:white;
+}
+a:hover{
+    color:white;
 }
 .footer-section{
     border-bottom: 1px solid rgb(172, 172, 172);
