@@ -145,8 +145,10 @@ option{
 
 .pesquisar{
     background-color:#1a5163;
-    margin-top: 30px;
-    padding: 18px;
+    margin-top: 40px;
+    margin-left: 18px;
+    width:150px;
+    padding: 15px;
     color: white;
     border-radius: 250px 250px 250px 250px;
 }
