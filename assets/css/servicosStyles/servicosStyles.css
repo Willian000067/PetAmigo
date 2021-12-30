@@ -172,15 +172,24 @@ border-radius: 250px 250px 0px 0px;
     left:109px;
     top:45px;
     border-radius:100%;
-    background: #FC9685;
+    background-color: #FC9685;
 
 }
+
+
 .icone-dog{
     
     position: relative;
     top:15px;
     left: 123px;
-    color:#fff;
+    color:rgb(255, 255, 255);
+}
+.icone-veterinario{
+    position: relative;
+    top:15px;
+    left: 124px;
+    color:rgb(250, 250, 250);
+    background:#fff;
 }
 .services-section-title h3{
     margin-top: 50px;
@@ -473,6 +482,7 @@ footer{
     margin-top: 430px;
     height: 80px;
     width: 100%;
+    
 }
 .footer-section-one{
     flex: 1;  
