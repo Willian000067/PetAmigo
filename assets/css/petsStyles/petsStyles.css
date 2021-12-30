@@ -84,7 +84,7 @@ option{
 }
 
 .item{
-    height: 430px;
+    height: 450px;
     border-radius: 10px;
     border: 1px solid rgba(26,81,99,255);
     display: flex;
@@ -95,6 +95,7 @@ option{
 .item-image img{
     height:200px;
     width: 100%;
+    border-radius: 250px 250px 250px 250px;
 }
 
 .item-description{
@@ -104,6 +105,7 @@ option{
 }
 
 .item-description p {
+    padding-top:20px;
     color:#FC9685;
 }
 
