@@ -21,6 +21,10 @@
         font-weight: bold;    
         color: white;
     }   
+    .main-left button{
+        margin-top: 10px;
+        width:50%;
+    }
     .main-left p{
        
         font-weight: bold;    
