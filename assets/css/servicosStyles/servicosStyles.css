@@ -77,8 +77,8 @@ border-radius: 250px 250px 0px 0px;
 position: relative;
 width: 150px;
 height: 150px;
-left: 230px;
-bottom:10px;
+left: 270px;
+bottom:50px;
 
 
 
@@ -100,6 +100,12 @@ background: #FC9685;
 
 
 
+}
+.border-dog h3{
+    font-weight: bold;
+    font-size: 24px;
+    text-align:center;
+    margin-right: 50px;
 }
 
 .border-dog-one{
@@ -145,6 +151,7 @@ h3{
     margin-top: 17px;
     color: white;
     font-size: 26px;
+    font-weight: bold;
 }
 
 .services-section-one{
@@ -162,10 +169,12 @@ border-radius: 250px 250px 0px 0px;
     
 }
 
+
 .services-section-title{
 
     display: flex;
     flex-direction: column;
+    
 
     
 }
@@ -200,6 +209,14 @@ border-radius: 250px 250px 0px 0px;
     padding-left:12px;
     font-size: 24px;
     color: #2f6272;
+    font-weight:bold;
+    
+    
+}
+
+.services-section-title h3:hover{
+   font-weight:900;
+    
 }
 
 .services-section-title p{
@@ -208,9 +225,11 @@ border-radius: 250px 250px 0px 0px;
     color: #2f6272;
 }
 
+
 a{
     text-decoration: none;
 }
+
 
 .services-section-two{
     
@@ -258,6 +277,7 @@ border-radius: 250px 0px 0px 250px;
     font-weight: 500;
     margin-top: 40px;
     margin-left:60px;
+    font-weight: bold;
 }
 
 ul{
