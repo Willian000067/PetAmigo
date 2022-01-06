@@ -11,11 +11,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/homeStyles/stylesHome.css">
     <link rel="stylesheet" href="assets/css/globalStyles/styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
     <script src="assets/js/script.js"></script>
 </head>
 <body>  
   <!-- Tag de abertura do header  -->
         <header>
+
+  
             <div class="container">
               <!-- Tag de abertura do menu de navegação  -->
                 <nav class="navbar navbar-expand-lg ">
@@ -23,8 +29,9 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
+                      
                     <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarText">
-                      <ul class="navbar-nav mr-auto">
+                      <ul class="navbar-nav mr-auto ">
                          <li class="nav-item ">
                           <a class="link" href="index.html" active>Início </a>
                          </li>
@@ -47,10 +54,22 @@
                             <button class="btn cadastro ">Cadastrar-se</button>
                         </div>
                     </div>
-                  </nav>   
-                  <!-- Tag de fechamento do menu de navegação  -->
-            </div>
+                  </nav> 
+                  <div class="dropdown">
+                    <button class="btn  dropdown-toggle btn-drop" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Menu
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="index.html">Início</a>
+                      <a class="dropdown-item" href="serviços.html">Serviços</a>
+                      <a class="dropdown-item" href="sobre.html">Sobre</a>
+                      <a class="dropdown-item" href="contato.html">Contato</a>
+                      
+                    </div>
+                  </div>
+              
         </header>
+        
         <!-- Tag de fechamento do header  -->
         <section class="main">
           <!-- Section main com os 3 títulos inicais da página e o form de buscar  -->
@@ -67,7 +86,7 @@
                          <form action="">
                             <div class="row">  
                              <div class="input-one col">
-                             <label for="">Estou procurando por:</label>
+                             <label for="">Pet:</label>
                              <select name="" id="">
                                  <option value="">🐶 Cachorros</option>
                                  <option value="">🙀  Gatos</option>
@@ -165,13 +184,15 @@
                     <p class="p-items">Lorem ipsum dolor sit amet cLorem ipsum dolor sit amet c</p>
                  </div>
                 </div>
-                <div class="test-one d-flex">
+                <div class="display">
+                <div class="d-flex test-one ">
                  <div class="avatar"><img class="avatar"src="https://image.freepik.com/vetores-gratis/imagem-de-perfil-de-personagem-de-desenho-animado-avatar-jovem_18591-55058.jpg" alt=""> </div>
                  <div class="items-texts">
                    <i class="fas fa-star star"></i> <i class="fas fa-star star"></i> <i class="fas fa-star star"></i>
                  <p class="p-items">Lorem ipsum dolor sit amet cLorem ipsum dolor sit amet c</p>
               </div>
             </div>
+          </div>
                   </div>
                 </div>
                 
@@ -184,13 +205,15 @@
                       <p class="p-items">Lorem ipsum dolor sit amet cLorem ipsum dolor sit amet c</p>
                    </div>
                   </div>
-                  <div class="test-one d-flex">
+                  <div class="display">
+                  <div class="d-flex test-one ">
                    <div class="avatar"><img class="avatar"src="https://image.freepik.com/vetores-gratis/imagem-de-perfil-de-personagem-de-desenho-animado-avatar-jovem_18591-55058.jpg" alt=""> </div>
                    <div class="items-texts">
                      <i class="fas fa-star star"></i> <i class="fas fa-star star"></i> <i class="fas fa-star star"></i>
                    <p class="p-items">Lorem ipsum dolor sit amet cLorem ipsum dolor sit amet c</p>
                 </div>
               </div>
+            </div>
                 </div>
               </div>
                 
