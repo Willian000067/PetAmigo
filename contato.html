@@ -5,23 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato - PetAmigo</title>
+
+    <link rel="stylesheet" href="./assets/css/contatoStyles/contatoStyles.css">
 </head>
 <body>
     <!-- Criando o header, comum a todas as páginas -->
     <header>
-        <!-- DIV é um container genério a fim de agrupar um mesmo estilo -->
-        <div>
-            <!-- NAV representa uma seção com links de navegação para outras páginas-->
-            <nav>
-                <span>PetAmigo</span>
-                <button>
-                    <span>
-                        Cadastre-se
-                    </span>
-                </button>
+        <section class="header-main">
+            
+            <div class="header-menu">
+                <!-- flex elemento 1 -->
+                    <span class="logo-inicio">PetAmigo</span>
 
-            </nav>
-        </div>
+                <!-- flex elemento 2 -->
+                    <nav class>
+                        <a href="#" class="link">Inicio</a>
+                        <a href="#" class="link">Nossos Serviços</a>
+                        <a href="#" class="link">Sobre nós</a>
+                        <a href="#" class="link">Contato</a>
+                    </nav>
+
+                <!-- flex elemento 3 -->
+                    <nav>
+                        <a href="#" class="entrar">Entrar</a>
+                        <button>
+                                <span>
+                                    <a href="#" class="cadastrar">Cadastre-se</a>
+                                </span>
+                            </button>
+                    </nav>
+            </div>
+
+        </section>
     </header>
 </body>
 </html>
