@@ -66,6 +66,16 @@ header{
     color: #fc6048;
 
 }
+.btn-drop{
+    background-color: #e89588;
+    color: #fff;
+     border: 1px solid #e89588;
+}
+.btn-drop:hover{
+    background-color: #e89588;
+    color: #fff;
+     border: 1px solid #e89588;
+}
 
 .cadastro{
     background-color:#fc9b8b;
@@ -80,4 +90,42 @@ header{
  
 
 
+    
+    @media (max-width: 769px) { 
+        header{
+            width: 100%;
+        }
+        header .navbar-nav{
+            display: none;
+            
+        }
+        header .logo{
+            margin-top: 10px;
+        }
+
+        nav{
+            display:flex;   
+        }
+
+       header .buttons{
+            position:absolute;
+            right: 180px;
+            top:20px;
+        }
+        
+        .entrar{
+            
+            text-decoration: none;
+            width: 30px;
+            color: #e89588;
+        }
+
+        .link{
+            
+            
+            
+            text-decoration: none;
+        }
+     }
+      
     
