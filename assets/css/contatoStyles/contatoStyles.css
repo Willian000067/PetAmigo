@@ -6,6 +6,9 @@ header {
     background-color: #1a5163;
     color:#FFFFFF;
     position: fixed;
+    /* justify-content: center; */
+    align-items: center;
+
     z-index: 999;
     height: 70px;
     top: 0px;
@@ -14,83 +17,98 @@ header {
 }
 
 .logo-inicio {
-    
+    display: flex;
     font-family: sans-serif;
     font-style: normal;
     font-weight: bold;
+    text-decoration: none;
+    white-space: nowrap;
 
     font-size: 1.25rem;
-    text-decoration: none;
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
     margin-right: 1rem;
-    white-space: nowrap;
+    flex-grow: 1;
+    justify-content: center;
+
 }
 
 .navegacao {
-    display: flex;
-    flex-wrap: wrap;
+   /*  display: flex;
+    flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
+    display: inline-block;
+    flex-grow: 2;
     
     }
 
-    .linkA {
-        color: #FFFFFF;
-        text-decoration: none;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold;
-    }
-    .linkA:hover {
-        color: #FC9685
+    .lista {
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 
-    .linkB {
-        color: #FFFFFF;
-        text-decoration: none;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold;
-    }
-    .linkB:hover {
-        color: #FC9685
-    }
+        .linkA {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            }
+        .linkA:hover {
+            color: #FC9685
+        }
 
-    .linkC {
-        color: #FFFFFF;
-        text-decoration: none;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold;
-    }
-    .linkC:hover {
-        color: #FC9685
-    }
+        .linkB {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            }
+        .linkB:hover {
+            color: #FC9685
+        }
 
-    .linkD {
-        color: #FFFFFF;
-        text-decoration: none;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold;
-    }
-    .linkD:hover {
-        color: #FC9685
+        .linkC {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            }
+        .linkC:hover {
+            color: #FC9685
+        }
+
+        .linkD {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            }
+        .linkD:hover {
+            color: #FC9685
+}   
+
+.login {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
 }
 
+    .entrar {
+        color: #FC9685;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
 
-
-.entrar {
-    color: #FC9685;
-    text-decoration: none;
-  
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-    text-transform: uppercase;   
+        font-size: 1rem;
+        line-height: 21px;
 }
 
 .botao-cadastro {
