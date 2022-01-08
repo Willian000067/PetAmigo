@@ -7,10 +7,16 @@
     
 }
 
+body{
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(26,81,99,255), rgba(26,81,99,255));
+}
+
 .form-left{
     
     height:795px;
-    background-color: rgba(26,81,99,255);
+    
+   
     flex: 1;
     
 }  
@@ -46,12 +52,14 @@
 
 .form-right{
     flex: 1;
-    margin-top: 50px;
+    margin-top: 20px;
+    
+   
 }
 
 
 .form-right h1{
-    color:rgba(26,81,99,255);
+    color:white;
     font-weight: bold;
     text-align: center;
 }
@@ -67,7 +75,9 @@
     color: #fff;
     font-weight: 400;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 70px;
+    width: 400px;
+    font-weight: bold;
 
 }
 
@@ -76,8 +86,8 @@
     
 }
 
-.form label{
-    color: rgba(26,81,99,255);
+ label{
+    color: white;
     font-weight: bold;
 }
 
@@ -97,3 +107,148 @@
 .form-group{
     margin-top: 13px;
 }
+
+
+
+
+
+input, label {
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus {
+    outline: none;
+}
+
+a {
+    color:#00259e;
+}
+
+
+
+
+
+#main-container {
+    
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding:25px;
+    margin-top: 70px;
+}
+
+#main-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2em;
+}
+
+#main-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+}
+
+.info {
+    text-align: center;
+    justify-content: center;
+    
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+
+.full-box {
+    flex: 1 1 60%;
+    position: relative;
+}
+
+.half-box {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+
+.spacing {
+    margin-right: 2.5%;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+input {
+    border-bottom: 2px solid #285D56;
+    padding: 10px;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    
+}
+
+input:focus {
+    border-color: rgba(26,81,99,255);
+}
+
+input[type="submit"] {
+    background-color: #FC9685;
+    color: #fff;
+    border:none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #ff4225, #fc6048);
+    
+}
+
+#agreement {
+    margin-right: 5px;
+}
+
+#agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+}
+
+#client {
+    margin-right: 5px;
+}
+
+#client, #client-label {
+    display: inline-block;
+    width: auto;
+}
+
+#productor {
+    margin-right: 5px;
+}
+
+#productor, #productor-label {
+    display: inline-block;
+    width: auto;
+}
+
+.error-validation {
+    color: #FF1a1a;
+    position: absolute;
+    top: 57px;
+    font-size: 1em;
+}
+
+.template {
+    display: none;
+}
+
+
