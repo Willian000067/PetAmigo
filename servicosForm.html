@@ -58,126 +58,163 @@
         <h2>Cadastro de serviços para pets</h2>
         <p>lorem ipsum dolor sit amet, consectet lorem ipsum dolor sit amet, consectet lorem ipsum dolor sit amet, consectet.
             lorem ipsum dolor sit amet, consectet lorem ipsum dolor sit amet, consectet lorem ipsum dolor sit amet, consectet.
+            ltet lorem ipsum dolor sit amet, consectet lorem ipsum dolor sit amet, consectet.
             lorem ipsum dolor sit amet, consectet lorem ipsum dolor sit amet, consectet lorem ipsum dolor sit amet, consectet.
+            lorem ipsum dolor sit amet, consectet lorem ipsum dolor sit amet, consectet lorem ipsum dolor sit amet, consectet.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi incidunt sed minus odio vero consequatur exercitationem, perferendis assumenda aut sequi praesentium animi quasi quos neque porro ratione delectus debitis mollitia.
         </p>
     </div>
     </div>
     <div class="form-right">
         <h1>Formulário</h1>
         <div>
-            <form class="form" >
+          <form id="register-form">
 
-                <div class="col-md-10">
-          
-                  <div class="form-group">
-          
-                    <label for="">Nome: </label>
-          
-                    <input   type="text" class="form-control" required>
-          
-                  </div>
-          
+            <div class="full-box">
+      
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="Digite o seu e-mail" data-min-length="2" data-email-validate>
+      
+            </div>
+      
+            <div class="full-box">
+      
+                <label for="cpf">CPF:</label>
+                <input type="text" name="cpf" id="cpf" placeholder="Digite o seu CPF" required>
+      
+            </div>
+      
+            <div class="half-box spacing">
+      
+                <label for="name">Nome:</label>
+                <input type="name" name="name" id="name" placeholder="Digite o seu nome" data-required data-min-length="3" data-max-length="16">
+      
+            </div>
+      
+            <div class="half-box">
+      
+                <label for="last-name">Sobrenome:</label>
+                <input type="last-name" name="last-name" id="last-name" placeholder="Digite o seu sobrenome" data-required data-only-letters>
+      
+            </div>
+      
+   
+      
+            <div class="half-box spacing">
+      
+                <label for="phone">Digite o telefone fixo:</label>
+                <input type="tel" id="phone" name="phone" placeholder="(xx) xxxx-xxxx"pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+      
+            </div>
+      
+            <div class="half-box">
+      
+                <label for="cell-phone">Digite o telefone celular:</label>
+                <input type="tel" id="cell-phone" name="cell-phone" placeholder="(xx) xxxxx-xxxx" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+      
+            </div>
+      
+            <div class="half-box spacing">
+      
+                <label for="local-city">Cidade:</label>
+                <input type="text" id="local-city" name="local-city" placeholder="Sua Cidade">
+      
+            </div>
+      
+            <div class="half-box">
+      
+                <label for="local-state">Estado:</label>
+                
+                <select id="UF" name="UF">
+                    <option value="">Selecione</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espirito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+      
                 </div>
-          
-                <div class="col-md-10">
-          
-                  <div class="form-group">
-          
-                    <label for="">Email:  </label>
-          
-                    <input  type="email" class="form-control"  required>
-          
-                  </div>
-          
+      
+                <div class="half-box spacing">
+      
+                    <label for="local-street">Rua:</label>
+                    <input type="text" id="local-street" name="local-street" placeholder="Rua A, n° 123">
+      
                 </div>
-          
-                <div class="col-md-10 ">
-          
-                  <div class="form-group">
-          
-                    <label for="">CPF:</label>
-          
-                    <input type="text" class="form-control" id="cpf" required >
-          
-                  </div>
-          
+      
+                <div class="half-box">
+      
+                    <label for="local-CEP">CEP:</label>
+                    <input type="text" name="local-CEP" id="local-CEP" placeholder="xxxxx-xxx" required pattern="\d{5}-\d{3}"/>
+      
                 </div>
-                <div class="col-md-10 ">
-          
-                    <div class="form-group">
-            
-                      <label for="">Estado:</label>
-            
-                      <input type="text" class="form-control" id="cpf" required >
-            
-                    </div>
-            
+                <div class="half-box">
+      
+                  <label for="local-state">Tipo de serviço:</label>
+                  
+                  <select id="UF" name="UF">
+                      <option value="">Selecione</option>
+                      <option value="">Veterinário</option>
+                      <option value="">Babá de Pets</option>
+                      <option value="">Dog Walking</option>
+                      <option value="">Pet Shop</option>
+              
+                  </select>
+        
                   </div>
 
-                <div class="col-md-10 ">
-          
-                    <div class="form-group">
+                <div class="full-box">
+      
+                  <div class="form-group">
             
-                      <label for="">Cidade:</label>
-            
-                      <input type="text" class="form-control" id="cpf" required >
-            
-                    </div>
-            
-                  </div>
-                  <div class="col-md-10 ">
-          
-                    <div class="form-group">
-            
-                      <label for="">Contato:</label>
-            
-                      <input type="text" class="form-control" id="cpf" required >
-            
-                    </div>
-            
-                  </div>
-           
-                <div class="col-md-10 ">
-          
-                    <div class="form-group">
-            
-                      <label for="">Valor:</label>
-            
-                      <input type="text" class="form-control" id="cpf" required >
-            
-                    </div>
-            
-                  </div>
-                         
-          
-                <div class="col-md-10">
-          
-                    <div class="form-group">
-            
-                        <label for="">Descrição do serviço:</label>
-            
-                        <textarea  type="text" class="form-control"  ></textarea>
-            
-                    </div>
-            
-            
-                  </div>
-              <div class="col-md-10 mt-3">
-          
-                <div class="d-flex justify-content-end" >
-          
-          
-          
-                  <button type="submit"
-                  class="btn  btn-lg float-right"
-                  >
-          
-                  <i class="fa fa-save"></i>Cadastrar
-          
-                    </button>
+                    <label for="">Descrição do serviço:</label>
+        
+                    <textarea  type="text" class="form-control"  ></textarea>
+        
                 </div>
               </div>
-          </form>
+      
+                <div class="full-box mt-5">
+      
+                    <input type="checkbox" name="agreement" id="agreement" required>
+                    <label for="agreement" id="agreement-label">Eu li e aceito os <a href="#">Termos de uso</a></label>
+      
+                </div>
+      
+             
+      
+                <div class="full-box">
+      
+                    <input class="test mb-4" type="submit" name="btn-submit" value="Cadastrar">
+                    
+                </div>
+      
+        
+      
+        </form>
         </div>
 
     </div>
