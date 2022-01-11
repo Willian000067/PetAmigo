@@ -1,14 +1,14 @@
-i{
+i {
     background-color: #fc9b8b;
 }
 
-footer{
+footer {
     margin-top: 200px;
     height: 80px;
     width: 100%;
-    
 }
-.footer-section-one{
+
+.footer-section-one {
     flex: 1;  
     margin-left: 50px;  
 }
@@ -20,58 +20,52 @@ footer{
     font-size:14px;
 }
 
-
 .footer-link:hover {
-    
     text-decoration: none;
 }
-.footer-section-one{
+
+.footer-section-one {
     display: flex;
     flex-direction: column;
 }
 
-.footer-h2{
+.footer-h2 {
     margin-left: 0px;
     font-size: 16px;
     font-weight: bold;
     color:#005875;
 }
 
-
-
-.p{
+.p {
     margin-top: 20px;
-    
 }
 
-.p p{
+.p p {
     color:#0386b6;
     font-weight: 400;
 }
 
-.p p:hover{
+.p p:hover {
     color:#0386b6;
     font-weight: 600;
     color:#1a5163;
 }
 
-a{
+a {
     text-decoration:none;
 }
-.footer-section{
+
+.footer-section {
     border-bottom: 1px solid rgb(172, 172, 172);
 }
 
-.copyright{
+.copyright {
     margin-top: 20px;
     display: flex;
     align-items: center;
-   
-    
-
 }
 
-.logo-footer h3{
+.logo-footer h3 {
     font-weight: 600;
     color: hsl(195, 58%, 25%);
     margin-left: 10px;
@@ -79,37 +73,29 @@ a{
     text-align: center;
 }
 
-.paw{
+.paw {
     margin-top: 0px;
     font-size: 25px;
 }
-.copyright-footer{
-text-align: center;
-margin-left: 100px;
-font-weight: bold;
-padding-top:8px;
 
+.copyright-footer {
+    text-align: center;
+    margin-left: 100px;
+    font-weight: bold;
+    padding-top:8px;
 }
 
-.copyright-footer p{
+.copyright-footer p {
    margin-bottom: 20px;
    color:#007cad;
    font-weight: 500;
 }
 
-.dog-services{
-    position: absolute;
-    
+.dog-services {
+    position: absolute;    
     height: 250px;
     margin-left: 100px;;
-
-background: url(.jpg);
-border-radius: 250px 250px 0px 0px;
-bottom: -120px;
-
-
+    background: url(.jpg);
+    border-radius: 250px 250px 0px 0px;
+    bottom: -120px;
 }
-
-
-
-
