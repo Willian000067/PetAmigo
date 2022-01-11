@@ -6,7 +6,6 @@ header {
     background-color: #1a5163;
     color:#FFFFFF;
     position: fixed;
-    /* justify-content: center; */
     align-items: center;
 
     z-index: 999;
@@ -17,6 +16,11 @@ header {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
+
+/* .teste {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+} */
 
 .logo-inicio {
     display: flex;
@@ -34,14 +38,6 @@ header {
     flex-grow: 1;
 }
 
-.navegacao {
-   /*  display: flex;
-    flex-wrap: wrap; */
-    justify-content: center;
-    align-items: center;
-    display: inline-block;
-    flex-grow: 2;
-    }
 
 .lista {
     display: flex;
@@ -51,52 +47,49 @@ header {
     margin-left: 60px;
     }
 
-        .linkA {
-            color: #FFFFFF;
-            text-decoration: none;
-            font-family: sans-serif;
-            font-style: normal;
-            font-weight: bold;
-            margin-left: 25px;
-            }
-        .linkA:hover {
-            color: #FC9685
+    .linkA {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        margin-left: 25px;
         }
-
-        .linkB {
-            color: #FFFFFF;
-            text-decoration: none;
-            font-family: sans-serif;
-            font-style: normal;
-            font-weight: bold;
-            margin-left: 25px;
-            }
-        .linkB:hover {
-            color: #FC9685
+    .linkA:hover {
+        color: #FC9685
+    }
+    .linkB {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        margin-left: 25px;
         }
-
-        .linkC {
-            color: #FFFFFF;
-            text-decoration: none;
-            font-family: sans-serif;
-            font-style: normal;
-            font-weight: bold;
-            margin-left: 25px;
-            }
-        .linkC:hover {
-            color: #FC9685
+    .linkB:hover {
+        color: #FC9685
+    }
+    .linkC {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        margin-left: 25px;
         }
-
-        .linkD {
-            color: #FFFFFF;
-            text-decoration: none;
-            font-family: sans-serif;
-            font-style: normal;
-            font-weight: bold;
-            margin-left: 25px;
-            }
-        .linkD:hover {
-            color: #FC9685
+    .linkC:hover {
+        color: #FC9685
+    }
+    .linkD {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        margin-left: 25px;
+        }
+    .linkD:hover {
+        color: #FC9685
 }   
 
 .login {
@@ -144,3 +137,12 @@ header {
     letter-spacing: 0.05em;
 }
 
+
+.principal {
+    background-color: #1a5163;
+    margin-top: 50px;
+    height: 400px;
+    width: 100%;
+    
+    position: relative;
+}
