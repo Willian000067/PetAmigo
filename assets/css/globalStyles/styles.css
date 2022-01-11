@@ -21,7 +21,7 @@ header{
     color: #fff;
     height: 70px;
     position: fixed;
-        z-index:999;
+        z-index:99;
         top:0;
         left:0;
         right: 0;
@@ -91,7 +91,8 @@ header{
 
 
     
-    @media (max-width: 769px) { 
+   
+    @media (max-width: 913px) { 
         header{
             width: 100%;
         }
@@ -101,6 +102,10 @@ header{
         }
         header .logo{
             margin-top: 10px;
+            
+        }
+        .logo{
+            margin-left: 80px;
         }
 
         nav{
@@ -109,7 +114,7 @@ header{
 
        header .buttons{
             position:absolute;
-            right: 180px;
+            right: 100px;
             top:20px;
         }
         
@@ -129,3 +134,56 @@ header{
      }
       
     
+     @media (max-width: 520px) { 
+        header{
+            width: 100%;
+        }
+        header .navbar-nav{
+            display: none;
+            
+        }
+        header .logo{
+            margin-top: 10px;
+            
+        }
+        .logo{
+display: none;        }
+
+        nav{
+            display:flex;   
+        }
+
+       header .buttons{
+            position:absolute;
+            left: 190px;
+            top:20px;
+        }
+
+     
+
+      
+
+       .cadastro{
+            position: absolute;
+            right: -80px;
+            width: 80px;
+            height: 40px;
+            font-size: 12px;
+            font-weight: bold;
+
+        }
+        
+        .entrar{
+            
+            text-decoration: none;
+            width: 30px;
+            color: #e89588;
+        }
+
+        .link{
+            
+            
+            
+            text-decoration: none;
+        }
+     }
