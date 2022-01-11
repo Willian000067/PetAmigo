@@ -14,7 +14,7 @@ text-align: start;
 position: absolute;
 top: 70px;
 left: 100px;
-width: 600px;
+width: 60%;
 }   
 
 .main-left h1{
@@ -44,7 +44,7 @@ width: 600px;
     position: absolute;
     bottom: 0px;
     right: 0px;
-    width: 600px;
+    width: 40%;
 }
 .border-header{
     /* unsplash:eoqnr8ikwFE */
@@ -210,11 +210,13 @@ border-radius: 250px 250px 0px 0px;
         width:230px;
     }
     .img-right{
+        right: 160px;
         height: 330px;
         width: 340px;
     }
 
     .border-header{
+        left:-180px;
         height:350px;
         width: 360px;
     }
@@ -248,6 +250,61 @@ border-radius: 250px 250px 0px 0px;
 
     .copyright-footer p{
         font-size:14px;
+    }
+
+    @media (max-width: 533px) {
+        .main-right{
+            display: none;
+        }
+        .main-left{
+            margin-left: -80px;
+        }
+      
+    
+        .border-header{
+            height:140px;
+            width: 160px;
+            left: 250px;
+        }
+        .cadastro{
+            position: relative;
+            left: 50px;
+        }
+        .h5 h3{
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .sobre-left p{
+            margin-top: 40px;
+            font-size: 12px;
+        }
+    
+        .five {
+            height: 200px;
+            width: 150px;
+        }
+    
+        .dados-ongs{
+            right: 80px;
+            height: 100px;
+            width: 70px;
+        }
+        .dados-ongs-two{
+            right: 0px;
+            height: 100px;
+            width: 70px;
+        }
+    
+        .dados-ongs-three{
+            right: 0px;
+            height: 100px;
+            width: 70px;
+            
+        }
+    
+        .copyright-footer p{
+            font-size:10px;
+        }
     }
 }
 
