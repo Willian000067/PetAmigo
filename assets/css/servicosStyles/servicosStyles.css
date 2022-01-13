@@ -610,6 +610,13 @@ bottom: -120px;
 
 }
 
+@media (min-width: 914px) { 
+    .dropdown{
+        display: none;
+    }
+
+}
+
 
 
 
