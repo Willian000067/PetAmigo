@@ -629,10 +629,14 @@ bottom: -120px;
         display:none;
     }
     .services-section-one{
+        width: 280px;
+        height: 280px;
         left:120px;
         top: -140px;
     }
     .services-section-two{
+        width: 280px;
+        height: 280px;
         left:410px;
         top: -140px;
     }
@@ -640,11 +644,15 @@ bottom: -120px;
         display:none;
     }
     .services-section-four{
+        width: 280px;
+        height: 280px;
         left:130px;
         top: 140px;
 
     }
     .services-section-five{
+        width: 280px;
+        height: 280px;
         left:415px;
         top: 140px;
 
@@ -669,6 +677,92 @@ bottom: -120px;
     }
 }
 
+@media (min-width: 930px) { 
+    .dropdown{
+        display: none;
+    }
+
+}
+@media (max-width: 913px) { 
+    .dropdown{
+        position:absolute;
+        left: 20px;
+        bottom: 15px;
+    }
+   header .container{
+        margin-left: 50px ;
+    }
+    .main-right{
+        display: none;
+    }
+    .image-dog{
+        display:none;
+    }
+    .services-section-one{
+        left:120px;
+        top: -140px;
+    }
+    .services-section-two{
+        left:410px;
+        top: -140px;
+    }
+    .services-section-three{
+        display:none;
+    }
+    .services-section-four{
+        left:130px;
+        top: 140px;
+
+    }
+    .services-section-five{
+        left:415px;
+        top: 140px;
+
+    }
+    .funcionamos-two{
+        display: none;
+    }
 
 
+    .funcionamos-three{
+        margin-top: 100px;
+
+    }
+    .dog-funcionamos{
+        display:none;
+    }
+    .border-funcionamos-two-dog{
+        display:none;
+    }
+    .funcionamos-three-title{
+        margin-top: 50px;
+    }
+    .border-icone{
+        left:115px;
+    }
+    .icone-pet-shop{
+        left:130px;
+    }
+    .icone-walking{
+        left:130px;
+    }
+    .icone-veterinario{
+        left:130px;
+    }
+    .icone-dog{
+        left:130px;
+    }
+    .services-section-title .veterinario{
+        margin-left: 10px;
+    }
+    .services-section-title .baba{
+        margin-left: 5px;
+    }
+    .services-section-title .dog-walking{
+        margin-left: 5px;
+    }
+    .services-section-title .pet-shop{
+        margin-left: 10px;
+    }
+}
 
