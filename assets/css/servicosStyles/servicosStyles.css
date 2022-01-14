@@ -618,5 +618,62 @@ bottom: -120px;
 }
 
 
+@media (max-width: 913px) { 
+    .dropdown{
+        position:absolute;
+        left: 20px;
+        bottom: 15px;
+    }
+   header .container{
+        margin-left: 50px ;
+    }
+    .main-right{
+        display: none;
+    }
+    .image-dog{
+        display:none;
+    }
+    .services-section-one{
+        left:120px;
+        top: -140px;
+    }
+    .services-section-two{
+        left:410px;
+        top: -140px;
+    }
+    .services-section-three{
+        display:none;
+    }
+    .services-section-four{
+        left:130px;
+        top: 140px;
+
+    }
+    .services-section-five{
+        left:415px;
+        top: 140px;
+
+    }
+    .funcionamos-two{
+        display: none;
+    }
+    
+
+    .funcionamos-three{
+        margin-top: 100px;
+        
+    }
+    .dog-funcionamos{
+        display:none;
+    }
+    .border-funcionamos-two-dog{
+        display:none;
+    }
+    .funcionamos-three-title{
+        margin-top: 50px;
+    }
+}
+
+
 
 
