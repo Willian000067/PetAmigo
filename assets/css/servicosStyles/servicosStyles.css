@@ -764,5 +764,50 @@ bottom: -120px;
     .services-section-title .pet-shop{
         margin-left: 10px;
     }
+
+    @media (max-width: 550px){
+        .buttons{
+            margin-right: 0px;
+        }
+        .main-left{
+            margin-left:-80px;
+            width: 500px;
+        }
+        .services-section-one{
+            left:-15px;
+            top: -140px;
+        }
+        .services-section-two{
+            left:265px;
+            top: -140px;
+        }
+        .services-section-three{
+            display:none;
+        }
+        .services-section-four{
+            left:250px;
+            top: 140px;
+    
+        }
+        .services-section-five{
+            left:0px;
+            top: 140px;
+    
+        }
+        .funcionamos-three-title{
+            margin-top: -5px;
+        }
+        .funcionamos-text h4{
+            font-size: 14px;
+        }
+        .funcionamos-text p{
+            font-size: 14px;
+        }
+        .funcionamos-three-title{
+            margin-top: 10px;
+            font-size: 28px;
+        }
+        
+    }
 }
 
