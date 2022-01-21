@@ -23,32 +23,30 @@ header#main-header span {
     
 }
 
-header#main-header nav.header-links ul {
+/* header#main-header nav.header-links ul {
     display: flex;
     list-style: none;
-    text-decoration: none;
     margin-top: 5px;
-}
+} */
 
-/* header#main-header nav ul {
+header#main-header nav ul {
     display: flex;
     list-style: none;
-} */
+}
 
 header#main-header nav ul li {
     display: flex;
     align-items: center;
-    text-decoration: none;
     margin-left: 25px;
 }
 
-header#main-header div.login {
+
+header#main-header div {
     display: flex;
     align-items: center;
-    text-decoration: none;
 }
 
-header#main-header div.login button {
+header#main-header div button {
     margin-right: 100px;
     margin-left: 20px;
     background: #FC9685;
