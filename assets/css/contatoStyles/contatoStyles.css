@@ -4,30 +4,31 @@ header#main-header {
     justify-content: space-between;
     font-family: sans-serif;
     font-style: normal;
-    font-weight: bold;
     color:#FFFFFF;
     background-color: #1a5163;
-
+    
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     height: 70px;
-
-}
-
-header#main-header span {
-    display: flex;
-    margin-left: 100px;
-    font-size: 1.25rem;
     
 }
 
-/* header#main-header nav.header-links ul {
+header#main-header div.lontra {
     display: flex;
-    list-style: none;
-    margin-top: 5px;
-} */
+    justify-content: flex-end;
+    font-weight: bold;
+    margin-left: 100px;
+    font-size: 1.25rem;
+    flex-grow: 1;
+}
+
+header#main-header nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 2;
+}
 
 header#main-header nav ul {
     display: flex;
@@ -40,10 +41,26 @@ header#main-header nav ul li {
     margin-left: 25px;
 }
 
+header#main-header nav ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color:#FFFFFF;
+}
+
 
 header#main-header div {
     display: flex;
     align-items: center;
+    flex-grow: 1;
+}
+
+header#main-header div a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-style: normal;
+    color: #FC9685;
 }
 
 header#main-header div button {
@@ -59,7 +76,14 @@ header#main-header div button {
     height: 40px;
     width: 120px;
     border-radius: 0.25rem;
+}
 
+header#main-header div button a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color:#FFFFFF;
 }
 
 
