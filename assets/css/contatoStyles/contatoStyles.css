@@ -1,3 +1,9 @@
+/*
+***********************************
+    ESTILOS DO HEADER
+***********************************
+*/
+
 header#main-header {
     display: flex;
     align-items: center;
@@ -17,9 +23,9 @@ header#main-header {
 
 header#main-header div.lontra {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     font-weight: bold;
-    margin-left: 100px;
+    margin-right: 80px;
     font-size: 1.25rem;
     flex-grow: 1;
 }
@@ -49,10 +55,16 @@ header#main-header nav ul li a {
     color:#FFFFFF;
 }
 
+header#main-header nav ul li a:hover {
+    color: #FC9685
+}
+
 
 header#main-header div {
     display: flex;
+    justify-content: center;
     align-items: center;
+    margin-left: 80px;
     flex-grow: 1;
 }
 
@@ -61,6 +73,11 @@ header#main-header div a {
     font-family: sans-serif;
     font-style: normal;
     color: #FC9685;
+}
+
+header#main-header div a:hover {
+    color: #fc745f;
+    transition: color 0.15s;
 }
 
 header#main-header div button {
@@ -78,6 +95,11 @@ header#main-header div button {
     border-radius: 0.25rem;
 }
 
+header#main-header div button:hover {
+background-color: #fc745f;
+transition: background-color 0.15s;
+}
+
 header#main-header div button a {
     text-decoration: none;
     font-family: sans-serif;
@@ -87,138 +109,8 @@ header#main-header div button a {
 }
 
 
-
-
-
-/* header {
-    display: flex;
-    justify-content: space-around;
-    position: fixed;
-    align-items: center;
-
-    z-index: 999;
-    height: 40px;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-.logo-inicio {
-    display: flex;
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    text-decoration: none;
-    white-space: nowrap;
-    justify-content: center;
-
-    font-size: 1.25rem;
-    padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;
-    margin-right: 1rem;
-    flex-grow: 1;
-}
-
-
-.lista {
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-left: 60px;
-    }
-
-    .linkA {
-        text-decoration: none;
-        margin-left: 25px;
-        }
-    .linkA:hover {
-        color: #FC9685
-    }
-    .linkB {
-        color: #FFFFFF;
-        text-decoration: none;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        margin-left: 25px;
-        }
-    .linkB:hover {
-        color: #FC9685
-    }
-    .linkC {
-        color: #FFFFFF;
-        text-decoration: none;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        margin-left: 25px;
-        }
-    .linkC:hover {
-        color: #FC9685
-    }
-    .linkD {
-        color: #FFFFFF;
-        text-decoration: none;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        margin-left: 25px;
-        }
-    .linkD:hover {
-        color: #FC9685
-}   
-
-.login {
-    display: flex;
-    flex-grow: 1;
-    justify-content: flex-end;
-}
-
-    .entrar {
-        color: #FC9685;
-        text-decoration: none;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: normal;
-
-        font-size: 1rem;
-        line-height: 21px;
-        margin-right: 18px;
-        margin-top: 6px;
-}
-
-.botao-cadastro {
-    
-    
-    box-sizing: border-box;
-
-    
-    margin-right: 90px;
-    
-}
-
-.cadastrar {
-    color: #FFFFFF;
-    text-decoration: none;
-
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.99rem;
-
-    letter-spacing: 0.05em;
-}
-
-
-.principal {
-    background-color: #1a5163;
-    margin-top: 50px;
-    height: 400px;
-    width: 100%;
-    
-    position: relative;
-}
- */
+/*
+***********************************
+    ESTILOS DO TOP-SECTIONs
+***********************************
+*/
