@@ -66,10 +66,13 @@ header#main-header nav ul li a {
     color:#FFFFFF;
 }
 
-header#main-header nav ul li a:hover {
+header#main-header nav ul li a.active {
     color: #FC9685
 }
 
+header#main-header nav ul li a:hover {
+    color: #FC9685
+}
 
 header#main-header div {
     display: flex;
@@ -122,11 +125,13 @@ header#main-header div button a {
 
 /*
 ***********************************
-    ESTILOS DO TOP-SECTIONS
+    ESTILOS DO TOP-SECTION
 ***********************************
 */
 
 section#top-section {
+    display: flex;
+    justify-content: space-evenly;
     background-color: #1a5163;
     color: #FFFFFF;
     margin-top: 70px;
@@ -135,19 +140,25 @@ section#top-section {
 }
 
 section#top-section div {
-    display: flex;
-    flex-direction: column;
-    margin-left: 70px;
+    margin-top: 70px;
+    margin-left: -80px;
 }
 
 section#top-section div h1 {
     position: relative;
     font-family: sans-serif;
-    font-size: 40px;
-    margin-top: 50px;
 }
 
 section#top-section div p {
     font-family: sans-serif;
     font-size: 1.25rem;
+}
+
+section#top-section img {
+    position: relative;
+    top: 60px;
+    left: 70px;
+    height: 600px;
+    /* margin-top: 70px; */
+
 }
