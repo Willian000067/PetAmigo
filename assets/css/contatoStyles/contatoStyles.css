@@ -141,7 +141,7 @@ section#top-section {
 
 section#top-section div {
     margin-top: 70px;
-    margin-left: -80px;
+    /* margin-left: -80px; */
 }
 
 section#top-section div h1 {
@@ -152,6 +152,12 @@ section#top-section div h1 {
 section#top-section div p {
     font-family: sans-serif;
     font-size: 1.25rem;
+}
+
+section#top-section div form {
+    display: flex;
+    flex-direction: column;
+    /* width: 400px; */
 }
 
 section#top-section img {
