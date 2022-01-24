@@ -1,3 +1,10 @@
+.paw{
+    color:#fc9b8b;
+    position:relative;
+    top: -6px;
+    left:-20px;
+    font-size: 17px;
+}
     .main{
         margin-top:50px ;
         height:500px;
@@ -772,6 +779,55 @@ bottom: -120px;
         .main-left{
             margin-left:-80px;
             width: 500px;
+        }
+        .services-section-one{
+            left:-15px;
+            top: -140px;
+        }
+        .services-section-two{
+            left:265px;
+            top: -140px;
+        }
+        .services-section-three{
+            display:none;
+        }
+        .services-section-four{
+            left:250px;
+            top: 140px;
+    
+        }
+        .services-section-five{
+            left:0px;
+            top: 140px;
+    
+        }
+        .funcionamos-three-title{
+            margin-top: -5px;
+        }
+        .funcionamos-text h4{
+            font-size: 14px;
+        }
+        .funcionamos-text p{
+            font-size: 14px;
+        }
+        .funcionamos-three-title{
+            margin-top: 10px;
+            font-size: 28px;
+        }
+        
+    }
+
+    @media (max-width: 393px){
+        .buttons{
+            margin-right: 190px;
+        }
+        .main-left{
+            margin-left:-80px;
+            width: 350px;
+        }
+        .main-left button{
+            margin-right:250px;
+            
         }
         .services-section-one{
             left:-15px;
