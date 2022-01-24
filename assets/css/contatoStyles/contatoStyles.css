@@ -86,6 +86,7 @@ header#main-header div a {
     text-decoration: none;
     font-family: sans-serif;
     font-style: normal;
+    font-size: 0.9rem;
     color: #FC9685;
 }
 
@@ -140,7 +141,8 @@ section#top-section {
 }
 
 section#top-section div {
-    margin-top: 70px;
+    position: relative;
+    margin-top: 20px;
 }
 
 section#top-section div h1 {
@@ -155,28 +157,33 @@ section#top-section div p {
 
 section#top-section div form {
     display: flex;
+    width: 500px;
     flex-direction: column;
     background-color: white;
     align-items: center;
     box-shadow: 0px 2px 2px 2px;
     border-radius: 30px;
+    /* border: 2px solid #e5e5e5; */
 }
 
 section#top-section div form div.input input {
     width: 400px;
     height: 50px;
+    margin-top: 30px;
     border-radius: 15px;
     border: 2px solid #e5e5e5;
-
 }
 
 section#top-section div form div.msg input {
     width: 400px;
     height: 200px;
+    margin-top: 30px;
     border-radius: 15px;
 }
 
 section#top-section div form div.submit button {
+    position: relative;
+    left: 140px;
     background: #FC9685;
     font-family: sans-serif;
     font-style: normal;
@@ -186,12 +193,17 @@ section#top-section div form div.submit button {
     height: 40px;
     width: 120px;
     border-radius: 0.25rem;
+    font-size: 1rem;
+}
 
+section#top-section div form div.submit button:hover {
+    background-color: #fc745f;
+transition: background-color 0.15s;
 }
 
 section#top-section img.img-principal {
     position: relative;
-    top: 60px;
+    top: 20px;
     left: 180px;
     height: 600px;
     z-index: 5;
@@ -199,7 +211,7 @@ section#top-section img.img-principal {
 
 section#top-section img.sombra {
     position: relative;
-    top: 50px;
+    top: 10px;
     right: 150px;
     height: 600px;
     
