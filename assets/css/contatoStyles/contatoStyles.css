@@ -259,8 +259,9 @@ footer#main-footer div {
 }
 
 footer#main-footer div nav {
-    display: flex;
-    flex-direction: column;
+    /* background-color: aquamarine; */
+    width: 100%;
+    padding-left: 130px;
 }
 
 footer#main-footer div nav h3 {
@@ -271,7 +272,7 @@ footer#main-footer div nav h3 {
 
 footer#main-footer nav ul {
     list-style: none;
-    padding-left: 0px;
+    padding: 0px;
 }
 
 footer#main-footer nav ul li {
@@ -287,4 +288,9 @@ footer#main-footer div nav ul li a {
 footer#main-footer div nav ul li a:hover {
     color: #1a5163;
     font-weight: bold;
+}
+
+footer#main-footer hr {
+    margin-left: 50px;
+    margin-right: 50px;
 }
