@@ -82,7 +82,7 @@ header#main-header div {
     flex-grow: 1;
 }
 
-header#main-header div a {
+header#main-header div a.entrar {
     text-decoration: none;
     font-family: sans-serif;
     font-style: normal;
@@ -90,7 +90,7 @@ header#main-header div a {
     color: #FC9685;
 }
 
-header#main-header div a:hover {
+header#main-header div a.entrar:hover {
     color: #fc745f;
     transition: color 0.15s;
 }
@@ -101,7 +101,6 @@ header#main-header div button {
     background: #FC9685;
     font-family: sans-serif;
     font-style: normal;
-    /* font-weight: bold; */
     color:#FFFFFF;
     cursor: pointer;
     border: none;
@@ -111,15 +110,14 @@ header#main-header div button {
 }
 
 header#main-header div button:hover {
-background-color: #fc745f;
-transition: background-color 0.15s;
+    background-color: #fc745f;
+    transition: background-color 0.15s;
 }
 
 header#main-header div button a {
     text-decoration: none;
     font-family: sans-serif;
     font-style: normal;
-    /* font-weight: bold; */
     color:#FFFFFF;
 }
 
@@ -141,12 +139,13 @@ section#top-section {
 }
 
 section#top-section div {
+    display: flex;
+    flex-direction: column;
     position: relative;
-    margin-top: 20px;
+    left: 50px;
 }
 
 section#top-section div h1 {
-    position: relative;
     font-family: sans-serif;
 }
 
@@ -156,9 +155,7 @@ section#top-section div p {
 }
 
 section#top-section div form {
-    display: flex;
     width: 500px;
-    flex-direction: column;
     background-color: white;
     align-items: center;
     box-shadow: 0px 2px 2px 2px;
@@ -167,23 +164,28 @@ section#top-section div form {
 }
 
 section#top-section div form div.input input {
+    position: relative;
+    justify-content: center;
+    top: 20px;
     width: 400px;
     height: 50px;
-    margin-top: 30px;
+    margin-top: 40px;
     border-radius: 15px;
     border: 2px solid #e5e5e5;
 }
 
 section#top-section div form div.msg input {
+    position: relative;
     width: 400px;
     height: 200px;
-    margin-top: 30px;
+    margin-top: 80px;
     border-radius: 15px;
 }
 
 section#top-section div form div.submit button {
     position: relative;
-    left: 140px;
+    top: 10px;
+    left: 285px;
     background: #FC9685;
     font-family: sans-serif;
     font-style: normal;
@@ -204,7 +206,7 @@ section#top-section div form div.submit button:hover {
 section#top-section img.img-principal {
     position: relative;
     top: 20px;
-    left: 180px;
+    left: 220px;
     height: 600px;
     z-index: 5;
 }
@@ -212,7 +214,7 @@ section#top-section img.img-principal {
 section#top-section img.sombra {
     position: relative;
     top: 10px;
-    right: 150px;
+    right: 80px;
     height: 600px;
 }
 
