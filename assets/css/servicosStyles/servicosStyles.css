@@ -817,53 +817,91 @@ bottom: -120px;
         
     }
 
-    @media (max-width: 393px){
-        .buttons{
-            margin-right: 190px;
+    @media (max-width: 450px){
+     
+        .buttons a {
+            margin-right: 300px;
+        }
+        header .cadastro{
+            margin-right: 30px;
         }
         .main-left{
             margin-left:-80px;
             width: 350px;
         }
-        .main-left button{
-            margin-right:250px;
+
+        .main-left h1{
+            font-size: 24px;
             
+        }
+        .main-left p{
+            font-size: 13px;
+            
+        }
+        .main-left button{
+            margin-right: 100px;
+            width:100%;
+            font-size: 20px;
+        }
+        .services p{
+            font-size: 13px;
+        }
+        .services h3{
+            font-size: 20px;
+            margin-right: 20px;
+        }
+
+        .services .veterinario{
+            font-size: 20px;
+            margin-left: -20px;
         }
         .services-section-one{
             left:-15px;
-            top: -140px;
+            top: -200px;
+            width:200px;
         }
         .services-section-two{
-            left:265px;
-            top: -140px;
+            left:180px;
+            top: -200px; 
+            width:200px;   
         }
+       
         .services-section-three{
             display:none;
         }
         .services-section-four{
-            left:250px;
-            top: 140px;
-    
+            left:190px;
+            top: 82px;
+            width:200px;   
         }
         .services-section-five{
             left:0px;
-            top: 140px;
-    
+            top: 81px;
+            width:200px;       
         }
+       
         .funcionamos-three-title{
-            margin-top: -5px;
+            margin-top: -10px;
+            margin-bottom: 15px;
         }
         .funcionamos-text h4{
-            font-size: 14px;
+            font-size: 16px;
+            
         }
         .funcionamos-text p{
-            font-size: 14px;
+            font-size: 11px;
+            margin-bottom: 10px;
+        }
+        .funcionamos-three{
+            height: 550px;
         }
         .funcionamos-three-title{
-            margin-top: 10px;
+            margin-top: 0px;
             font-size: 28px;
         }
-        
+        .copyright-footer{
+            font-size: 12px;
+        }
     }
 }
 
