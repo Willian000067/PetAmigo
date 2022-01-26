@@ -1,6 +1,13 @@
-.sections {
+.sections-ong{
     display: flex;
     flex-direction: column;
+    
+}
+
+.sections{
+    display: flex;
+    flex-direction: column; 
+    margin-top:-30px;
 }
 
 .main{
