@@ -31,6 +31,9 @@ header a{
     color: #fff;
 }
 
+header a:hover{
+    color: #fff;
+}
 .logo{
     color:white;
     font-weight: bold;
