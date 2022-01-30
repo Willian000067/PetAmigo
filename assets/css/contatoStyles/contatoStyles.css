@@ -160,6 +160,7 @@ section#top-section div.left form {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
+    padding-bottom: 20px;
     align-items: center;
     justify-content: center;
     width: 500px;
@@ -167,7 +168,6 @@ section#top-section div.left form {
     align-items: center;
     box-shadow: 0px 2px 2px 2px;
     border-radius: 30px;
-    background-color: aquamarine;
 }
 
 ::placeholder {
@@ -182,25 +182,13 @@ section#top-section div.left form {
 
 section#top-section div.left form div.input input {
     position: relative;
-    justify-content: center;
     margin: 10px;
-    /* top: 20px; */
     width: 400px;
     height: 50px;
-    /* margin-top: 20px; */
     border-radius: 15px;
     border: 2px solid #e5e5e5;
     flex-grow: 1;
 }
-
-/* section#top-section div form div.msg input {
-    position: relative;
-    width: 400px;
-    height: 200px;
-    margin-top: 40px;
-    border-radius: 15px;
-    border: 2px solid rgba(26, 81, 99, 50%);
-} */
 
 section#top-section div.left form div.msg textarea {
     position: relative;
@@ -212,10 +200,10 @@ section#top-section div.left form div.msg textarea {
     flex-grow: 2;
 }
 
-section#top-section div form div.submit button {
+section#top-section div.left form div.submit button {
     position: relative;
     top: 10px;
-    left: 285px;
+    left: 140px;
     background: #FC9685;
     font-family: sans-serif;
     font-style: normal;
