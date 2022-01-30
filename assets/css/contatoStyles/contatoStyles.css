@@ -140,28 +140,34 @@ section#top-section {
     width: 100%;
 }
 
-section#top-section div {
+section#top-section div.left {
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 50px;
+    left: 2.5%; /* 50px */
 }
 
-section#top-section div h1 {
+section#top-section div.left h1 {
     font-family: sans-serif;
 }
 
-section#top-section div p {
+section#top-section div.left p {
     font-family: sans-serif;
     font-size: 1.25rem;
 }
 
-section#top-section div form {
+section#top-section div.left form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
     width: 500px;
     background-color: white;
     align-items: center;
     box-shadow: 0px 2px 2px 2px;
     border-radius: 30px;
+    background-color: aquamarine;
 }
 
 ::placeholder {
@@ -174,15 +180,17 @@ section#top-section div form {
     top: 10px;
 }
 
-section#top-section div form div.input input {
+section#top-section div.left form div.input input {
     position: relative;
     justify-content: center;
-    top: 20px;
+    margin: 10px;
+    /* top: 20px; */
     width: 400px;
     height: 50px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     border-radius: 15px;
     border: 2px solid #e5e5e5;
+    flex-grow: 1;
 }
 
 /* section#top-section div form div.msg input {
@@ -194,13 +202,14 @@ section#top-section div form div.input input {
     border: 2px solid rgba(26, 81, 99, 50%);
 } */
 
-section#top-section div form div.msg textarea {
+section#top-section div.left form div.msg textarea {
     position: relative;
     width: 400px;
     height: 200px;
-    margin-top: 40px;
+    margin-top: 20px;
     border-radius: 15px;
     border: 2px solid rgba(26, 81, 99, 50%);
+    flex-grow: 2;
 }
 
 section#top-section div form div.submit button {
@@ -238,18 +247,6 @@ section#top-section img.sombra {
     right: 80px;
     height: 600px;
 }
-
-/* section#top-section div.sombra {
-    position: relative;
-    border: 1px solid #A6E4E3;
-    box-sizing: border-box;
-    border-radius: 120px 120px 0px 0px;
-
-    top: 10px;
-    right: 80px;
-    height: 600px;
-    width: 300px;
-} */
 
 
 /*
