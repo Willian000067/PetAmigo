@@ -1,3 +1,20 @@
+@media (max-width: 1200px) {
+    .form-right {
+        display: none;
+    }
+
+    .form-left {
+        margin: 2rem !important;
+        width: 100%;
+    }
+}
+
+/* @media (max-width: 992px) {
+    .navbar {
+        display: none;
+    }
+} */
+
 .sections {
     display: flex;
     flex-direction: column;
@@ -9,7 +26,6 @@
     margin-top:50px;
     height: 33rem;
     width: 100%;
-    margin-top:50px;
     background: linear-gradient(45deg, rgba(26,81,99,255), rgba(26,81,99,255));
 }
 
@@ -26,25 +42,23 @@ body {
 }
 
 .form-right {
-    height:795px;
+    height: 48rem;
     flex: 1;   
 }
 
 .form-right img {
     position: absolute;
-    width: 370px;
-    height: 500px;
-    left: 1223px;
-    top: 150px;
+    width: 23rem;
+    height: 31rem;
+    margin: 5rem 0 0 3rem;
     border-radius: 250px 250px 0px 0px;
 }
 
 .border-dog {
     position: absolute;
-    width: 370px;
-    height: 500px;
-    left: 1259px;
-    top: 96px;
+    width: 23rem;
+    height: 31rem;
+    margin: 1.8rem 0 0 5rem;
     border: 1px solid #FC9685;
     box-sizing: border-box;
     border-radius: 250px 250px 0px 0px;
@@ -55,7 +69,7 @@ body {
     margin: 20px 0 0 140px;
 }
 
-.form-left h1 {
+.form-left h2 {
     color:white;
     font-weight: bold;
     text-align: left;
@@ -142,7 +156,6 @@ form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-right: 40px;
     background-color: #fff;
     padding: 45px;
     border-radius: 20px;
@@ -170,7 +183,7 @@ label {
 input {
     border: 3px solid #E5E5E5;
     padding: 10px;
-    font-size: 1.5em;
+    font-size: 0.9em;
     margin: 10px 0 10px 0;
     background: #FFFFFF;
     box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.02);
@@ -187,8 +200,8 @@ input[type="submit"] {
     color: #fff;
     border: none;
     border-radius: 20px;
-    height: 60px;
-    width: 177px;
+    height: 3rem;
+    width: 100%;
 }
 
 input[type="submit"]:hover {
