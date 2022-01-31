@@ -4,7 +4,7 @@
     
 }
 
-.main{
+.main {
     display: flex;
     margin-top:50px;
     height: 33rem;
@@ -21,16 +21,16 @@ footer {
     margin-top: 9.5rem !important;
 }
 
-body{
+body {
     height: 100vh;
 }
 
-.form-right{
+.form-right {
     height:795px;
     flex: 1;   
 }
 
-.form-right img{
+.form-right img {
     position: absolute;
     width: 370px;
     height: 500px;
@@ -39,7 +39,7 @@ body{
     border-radius: 250px 250px 0px 0px;
 }
 
-.border-dog{
+.border-dog {
     position: absolute;
     width: 370px;
     height: 500px;
@@ -50,25 +50,25 @@ body{
     border-radius: 250px 250px 0px 0px;
 }
 
-.form-left{
+.form-left {
     flex: 1;
     margin: 20px 0 0 140px;
 }
 
-.form-left h1{
+.form-left h1 {
     color:white;
     font-weight: bold;
     text-align: left;
 }
 
-.form-right h2{
+.form-right h2 {
     color: #fff;
     font-weight: bold;
     text-align: center;
     margin-top: 80px;
 }
 
-.form-right p{
+.form-right p {
     color: #fff;
     font-weight: 400;
     margin-top: 30px;
@@ -77,7 +77,7 @@ body{
     font-weight: bold;
 }
 
-label{
+label {
     color: #1A5163;
     font-weight: bold;
 }
