@@ -12,46 +12,62 @@
     <link rel="stylesheet" href="assets/css/globalStyles/styles.css">
     <link rel="stylesheet" href="assets/css/petsStyles/petsStyles.css">
     <script src="assets/js/script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
+
+  
         <div class="container">
+          <!-- Tag de abertura do menu de navegação  -->
             <nav class="navbar navbar-expand-lg ">
-                <a class="logo navbar-brand" href="#"><i class="fas fa-paw"></i> PetAmigo</a>
+                <a class="logo navbar-brand" href="#"><i class="far fa-heart heart"></i> <i class="fas fa-paw"></i> PetAmigo</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
+                  
                 <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarText">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item ">
-                      <a class="link" href="index.html">Início </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="link" href="serviços.html" active>Serviços</a>
-                    </li>
-                    <li class="nav-item">
+                  <ul class="navbar-nav mr-auto ">
+                     <li class="nav-item ">
+                      <a class="link" href="index.html" active style="color:#e89588">Início </a>
+                     </li>
+                     <li class="nav-item">
+                      <a class="link" href="serviços.html">Serviços</a>
+                     </li>
+                     <li class="nav-item">
                       <a class="link" href="sobre.html">Sobre Nós</a>
-                    </li>
-                    <li class="nav-item">
+                     </li>
+                     <li class="nav-item">
                         <a class="link" href="contato.html">Contato</a>
                       </li>
-                  </ul>
-                  
+                   </ul>
                 </div>
+               
                 <div class="d-flex justify-content-end ">
-                    <div class="buttons d-flex justify-content-between">
+                   <!-- Div com os botões de cadastro e de entrar do   -->
+                    <div class="buttons d-flex justify-content-between ">
                         <a href="login.html" class="entrar ">Entrar</a>
-                        
                         <button class="btn cadastro "> <a href="cadastro.html">
-                            Cadastrar-se
-                        </a></button>
-                    
+                          Cadastrar-se
+                      </a></button>
                     </div>
                 </div>
-              </nav>
-            
-             
-        </div>
+              </nav> 
+              <div class="dropdown">
+                <button class="btn  dropdown-toggle btn-drop" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Menu
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="index.html">Início</a>
+                  <a class="dropdown-item" href="serviços.html">Serviços</a>
+                  <a class="dropdown-item" href="sobre.html">Sobre</a>
+                  <a class="dropdown-item" href="contato.html">Contato</a>
+                  
+                </div>
+              </div>
+          
     </header>
 
     <section class="main ">
@@ -66,7 +82,7 @@
             <form action="">
                <div class="row">  
                 <div class="input-one col">
-                <label for="">Qual Pet? </label>
+                <label for="">Pet? </label>
                 <select name="" id="">
                     <option value="">🐶 Cachorros</option>
                     <option value="">🙀  Gatos</option>
