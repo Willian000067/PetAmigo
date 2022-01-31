@@ -233,3 +233,26 @@ input[type="submit"]:hover {
 .template {
     display: none;
 }
+
+@media (min-width: 914px) { 
+    .dropdown{
+        display: none;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .dropdown{
+        display: none;
+    }
+ }
+@media (max-width: 960px) { 
+    .dropdown{
+        position:absolute;
+        left: 20px;
+        bottom: 15px;
+    }
+   header .container{
+        margin-left: 50px ;
+    }
+}
