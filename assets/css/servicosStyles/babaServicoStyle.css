@@ -158,3 +158,178 @@ a{
 a:hover{
     color:#fff;
 }
+
+@media (min-width: 1000px) {
+    .dropdown{
+        display: none;
+    }
+ }
+@media (max-width: 960px) { 
+    .dropdown{
+        position:absolute;
+        left: 20px;
+        bottom: 15px;
+    }
+   header .container{
+        margin-left: 50px ;
+    }
+
+
+    .busca{
+        width: 800px;
+        margin-left: -200px    ;
+    }
+
+    .item{
+        margin-bottom: 100px;
+        height: 600px;
+        border-radius: 10px;
+        border: 1px solid rgba(26,81,99,255);
+    }
+}
+@media (max-width: 768px) { 
+    .main{
+        width: 800px;
+    }
+
+
+    .busca{
+        width: 800px;
+        margin-left: -200px    ;
+    }
+
+    .item{
+        margin-bottom: 100px;
+        height: 600px;
+        border-radius: 10px;
+        border: 1px solid rgba(26,81,99,255);
+    }
+}
+
+@media (max-width: 560px) {
+    .busca{
+        width: 500px;
+        margin-left: -200px    ;
+    }
+
+    .col{
+        width:90px;
+    }
+    .button{
+        margin-top: -20px;
+    }
+    .item{
+        margin-bottom: 100px;
+        height: 600px;
+        border-radius: 10px;
+        border: 1px solid rgba(26,81,99,255);
+    }
+    .logo{
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+   
+    .buttons{
+        margin-right: 20px;
+    }
+    .main{
+        width:500px;
+    }
+    .busca{
+        width: 500px;
+        margin-left: -200px    ;
+    }
+
+    .col{
+        width:50px;
+    }
+    .input-one{
+        margin-left: -20px;
+       
+    }
+    .button{
+        margin-top: -20px;
+    }
+    .item{
+        margin-bottom: 100px;
+        height: 600px;
+        border-radius: 10px;
+        border: 1px solid rgba(26,81,99,255);
+    }
+    .logo{
+        display: none;
+    }
+    p{
+        font-size:12px;
+    }
+
+    h5{
+        font-size:14px;
+    }
+    h3{
+        font-size:16px;
+    }
+    .detalhes{
+        padding-right: 45px;
+        font-size: 12px;
+    }
+    .adotar{
+        padding-right: 45px;
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    .buttons{
+        margin-right: 20px;
+    }
+    .main{
+        width:405px;
+    }
+    .busca{
+        width: 390px;
+        margin-left: -200px    ;
+    }
+
+    .col{
+        width:15px;
+    }
+    .input-one{
+        margin-left: -20px;
+       
+    }
+    .button{
+        margin-top: -20px;
+    }
+    .item{
+        margin-bottom: 100px;
+        height: 600px;
+        border-radius: 10px;
+        border: 1px solid rgba(26,81,99,255);
+    }
+    .logo{
+        display: none;
+    }
+    p{
+        font-size:12px;
+    }
+
+    h5{
+        font-size:14px;
+    }
+    h3{
+        font-size:16px;
+    }
+    .detalhes{
+        padding-right: 45px;
+        font-size: 12px;
+    }
+    .adotar{
+        padding-right: 45px;
+        font-size: 12px;
+    }
+}
