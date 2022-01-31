@@ -282,6 +282,7 @@ footer#main-footer div {
 
 footer#main-footer div nav {
     /* background-color: aquamarine; */
+    margin-top: 100px;
     width: 100%;
     padding-left: 130px;
 }
