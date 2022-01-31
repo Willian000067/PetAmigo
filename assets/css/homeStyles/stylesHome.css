@@ -48,12 +48,7 @@
     
 }
 
-.busca-campos{
-   
-}
-.row{
-    margin-left: 30px;
-}
+
 
 .input-one{
     display: flex;
@@ -262,7 +257,7 @@ p{
 
 .items{
    
-    width:1000px;
+    
     margin-top: 100px;
     height: 100px;
     margin-bottom: 15px;
@@ -362,7 +357,6 @@ a{
     text-decoration:none;
     color:white;
 }
-
 a:hover{
     color:white; 
 }
@@ -430,13 +424,13 @@ border-radius: 250px 250px 0px 0px;
 
 }
 
-@media (min-width: 770px) { 
+@media (min-width: 913px) { 
     .dropdown{
         display: none;
     }
 
 }
-@media (max-width: 769px) { 
+@media (max-width: 913px) { 
     .main{
        width: 100%;
     }
@@ -448,6 +442,9 @@ border-radius: 250px 250px 0px 0px;
         position:absolute;
         left: 20px;
         bottom: 15px;
+    }
+    .busca{
+        margin-left: -20px;
     }
 
     .input-one{
@@ -471,11 +468,113 @@ border-radius: 250px 250px 0px 0px;
     }
 
     .button-carousel{
-        right: -150px;
+        right: -340px;
     }
 
     .display{
         display:none;
+    }
+ }
+
+
+
+ @media (max-width: 533px) { 
+    .main{
+       width: 100%;
+    }
+
+    .border{
+        width: 150px;
+    }
+    .dropdown{
+        position:absolute;
+        left: 20px;
+        bottom: 15px;
+    }
+    .busca{
+        width: 100%;
+    }
+
+    .busca label{
+        font-size:14px;
+    }
+    .input-one{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-top: 15px;
+        color: white;
+        width:20px;
+        
+    }
+    .dog-services{
+        display: none;
+    }
+   
+    .services-secundary{
+        width: 200px;
+        top:400px
+    }
+    .services-secundary a{
+        margin-left: 10px;
+    }
+
+    .title-services {
+        margin-right: 20px;
+        padding-right:50px; 
+    }
+    .title-services h6{
+        margin-left: -50px;
+    }
+    .title-services a{
+        margin-left: -45px;
+        font-size:14px;
+    }
+    .title-services p{
+        margin-left: -45px;
+    }
+
+    .p-services{
+        margin-left: -40px;
+    }
+    .border{
+        display: none;  
+    }
+    .h1-services{
+        margin-left:-45px;
+        font-size:26px;
+    }
+
+    .pesquisar{
+        background-color:#1a5163;
+        margin-top: 40px;
+        margin-left: 18px;
+        width:100px;
+        padding: 10px;
+        color: white;
+        border-radius: 250px 250px 250px 250px;
+    }
+    .test{
+        width: 250px;
+    }
+
+    .button-carousel{
+        top: 400px;
+        right: -170px;
+    }
+
+    .display{
+        display:none;
+    }
+   p{
+       font-size: 14px;
+   }
+    .p-items{
+        font-size:10px;
+    }
+
+    .copyright-footer p{
+        font-size: 10px;
     }
  }
   

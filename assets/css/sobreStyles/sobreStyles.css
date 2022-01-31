@@ -14,7 +14,7 @@ text-align: start;
 position: absolute;
 top: 70px;
 left: 100px;
-width: 600px;
+width: 60%;
 }   
 
 .main-left h1{
@@ -44,7 +44,7 @@ width: 600px;
     position: absolute;
     bottom: 0px;
     right: 0px;
-    width: 600px;
+    width: 40%;
 }
 .border-header{
     /* unsplash:eoqnr8ikwFE */
@@ -189,6 +189,123 @@ border-radius: 250px 250px 0px 0px;
     -webkit-box-shadow: 5px 5px 0px 0px  #f0efef, 10px 10px 0px 0px ; 
     box-shadow: 5px 5px 0px 0px  #f0efef, 10px 10px 0px 0px ;
 
+}
+
+
+
+@media (min-width: 914px) { 
+    .dropdown{
+        display: none;
+    }
+
+}
+@media (max-width: 913px) {
+    .dropdown{
+        position:absolute;
+        left: 20px;
+        bottom: 15px;
+    }
+    .main-left
+    p{
+        width:230px;
+    }
+    .img-right{
+        right: 160px;
+        height: 330px;
+        width: 340px;
+    }
+
+    .border-header{
+        left:-180px;
+        height:350px;
+        width: 360px;
+    }
+    .main-right{
+        right: -90px
+    }
+     .h5 h3{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .sobre-left p{
+        margin-top: 40px;
+        font-size: 14px;
+    }
+
+    .five {
+        height: 250px;
+        width: 250px;
+    }
+
+    .dados-ongs{
+        right: 200px;
+    }
+    .dados-ongs-two{
+        right: 30px;
+    }
+
+    .dados-ongs-three{
+        right: 60px;
+    }
+
+    .copyright-footer p{
+        font-size:14px;
+    }
+
+    @media (max-width: 533px) {
+        .main-right{
+            display: none;
+        }
+        .main-left{
+            margin-left: -80px;
+        }
+      
+    
+        .border-header{
+            height:140px;
+            width: 160px;
+            left: 250px;
+        }
+        .cadastro{
+            position: relative;
+            left: 50px;
+        }
+        .h5 h3{
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .sobre-left p{
+            margin-top: 40px;
+            font-size: 12px;
+        }
+    
+        .five {
+            height: 200px;
+            width: 150px;
+        }
+    
+        .dados-ongs{
+            right: 80px;
+            height: 100px;
+            width: 70px;
+        }
+        .dados-ongs-two{
+            right: 0px;
+            height: 100px;
+            width: 70px;
+        }
+    
+        .dados-ongs-three{
+            right: 0px;
+            height: 100px;
+            width: 70px;
+            
+        }
+    
+        .copyright-footer p{
+            font-size:10px;
+        }
+    }
 }
 
 

@@ -10,7 +10,12 @@
     }
 } */
 
-.sections {
+.sections-ong{
+    display: flex;
+    flex-direction: column;
+}
+
+.sections{
     display: flex;
     flex-direction: column;
 }
@@ -22,6 +27,7 @@
     width: 100%;
     background: linear-gradient(45deg, rgba(26,81,99,255), rgba(26,81,99,255));
 }
+
 
 footer {
     margin-top: 9.5rem !important;
