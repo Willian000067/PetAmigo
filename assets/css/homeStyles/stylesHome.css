@@ -424,7 +424,7 @@ border-radius: 250px 250px 0px 0px;
 
 }
 
-@media (min-width: 913px) { 
+@media (min-width: 960px) { 
     .dropdown{
         display: none;
     }
