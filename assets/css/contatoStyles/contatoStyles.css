@@ -42,6 +42,10 @@ header#main-header div.lontra {
     flex-grow: 1;
 }
 
+header#main-header div.lontra img {
+    height: 50px;
+}
+
 header#main-header nav {
     display: flex;
     justify-content: center;
@@ -299,7 +303,7 @@ footer#main-footer nav ul li {
 footer#main-footer div nav ul li a {
     text-decoration: none;
     font-family: sans-serif;
-    color: #1a5163;
+    color: #0386b6;
 
 }
 footer#main-footer div nav ul li a:hover {
@@ -312,9 +316,21 @@ footer#main-footer hr {
     margin-right: 50px;
 }
 
-@media (max-width: 768px) {
-    
-    /* display: none; para sumir */
+footer#main-footer div.bottom-footer {
+    display: flex;
+}
 
+footer#main-footer div.bottom-footer img {
+    height: 50px;
+}
 
+footer#main-footer div.bottom-footer span {
+    color: #1a5163;
+    font-weight: bold;
+    margin-right: 80px;
+    font-size: 1.75rem;
+}
+
+footer#main-footer div.bottom-footer p {
+    color: #0386b6;
 }
