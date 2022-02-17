@@ -1,8 +1,4 @@
 
-
-
-
-
 .main{
     margin-top:50px ;
     height:400px;
@@ -18,26 +14,28 @@
 
 }
 .h1-section{
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 30px;
+    font-family: 'Baloo 2', cursive; 
+   padding-top: 30px;
    font-weight: bold;
    color: #fc9b8b;
    
 }
 
 .h1-section-sub{
-    
+    font-family: 'Baloo 2', cursive;
     font-weight: bold;
     color: #fff;
  }
  
  .p-section{
+    font-family: 'Baloo 2', cursive;
      color: white;
      font-weight: bold;
      font-size: 17px;   
  }
  
 .busca{
+    font-family: 'Baloo 2', cursive;
     position: absolute;
     bottom: 0;
     height: 100px;
@@ -52,6 +50,7 @@
 
 
 .input-one{
+    font-family: 'Baloo 2', cursive;
     display: flex;
     flex-direction: column;
     margin-left: 40px;
@@ -568,13 +567,16 @@ border-radius: 250px 250px 0px 0px;
         display:none;
     }
    p{
+       font-family: 'Baloo 2', cursive;
        font-size: 14px;
    }
     .p-items{
+        font-family: 'Baloo 2', cursive;
         font-size:10px;
     }
 
     .copyright-footer p{
+        font-family: 'Baloo 2', cursive;
         font-size: 10px;
     }
  }
