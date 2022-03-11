@@ -43,6 +43,7 @@
     width:350px;
     
 }
+
 label{
     font-size:20px;
 }
@@ -52,6 +53,7 @@ select{
     border-radius: 10px;
     height:35px;
     background-color:#e9eff0;
+    border-radius: 25%;
 }
 option{
     height:50px;
