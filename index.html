@@ -1,294 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetAmigo</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Dongle:wght@300&display=swap" rel="stylesheet">
-   
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"
+      crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/homeStyles/stylesHome.css">
     <link rel="stylesheet" href="assets/css/globalStyles/styles.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
 
     <script src="assets/js/script.js"></script>
-</head>
-<body>  
-  <!-- Tag de abertura do header  -->
-        <header>
-
-  
-            <div class="container">
-              <!-- Tag de abertura do menu de navegação  -->
-                <nav class="navbar navbar-expand-lg ">
-                    <a class="logo navbar-brand" href="#"><i class="far fa-heart heart"></i> <i class="fas fa-paw"></i> PetAmigo</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                      
-                    <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarText">
-                      <ul class="navbar-nav mr-auto ">
-                         <li class="nav-item ">
-                          <a class="link" href="index.html" active style="color:#e89588">Início </a>
-                         </li>
-                         <li class="nav-item">
-                          <a class="link" href="serviços.html">Serviços</a>
-                         </li>
-                         <li class="nav-item">
-                          <a class="link" href="sobre.html">Sobre Nós</a>
-                         </li>
-                         <li class="nav-item">
-                            <a class="link" href="contato.html">Contato</a>
-                          </li>
-                       </ul>
-                    </div>
-                   
-                    <div class="d-flex justify-content-end ">
-                       <!-- Div com os botões de cadastro e de entrar do   -->
-                        <div class="buttons d-flex justify-content-between ">
-                            <a href="login.html" class="entrar ">Entrar</a>
-                            <button class="btn cadastro "> <a href="cadastro.html">
-                              Cadastrar-se
-                          </a></button>
-                        </div>
-                    </div>
-                  </nav> 
-                  <div class="dropdown">
-                    <button class="btn  dropdown-toggle btn-drop" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                     Menu
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="index.html">Início</a>
-                      <a class="dropdown-item" href="serviços.html">Serviços</a>
-                      <a class="dropdown-item" href="sobre.html">Sobre</a>
-                      <a class="dropdown-item" href="contato.html">Contato</a>
-                      
-                    </div>
-                  </div>
-              
-        </header>
-        
-        <!-- Tag de fechamento do header  -->
-        <section class="main">
-          <!-- Section main com os 3 títulos inicais da página e o form de buscar  -->
-
-            <div class="container">
-              <div class="titulos-section">
-                <h1 class="h1-section">PetAmigo</h1>
-                <h1 class="h1-section-sub">Adote um pet <br> para o seu lar!</h1>
-                <p class="p-section">Você pode encontrar um amigo para o seu <br> Pet e fazer novas amizades.</p>
-              </div>
-               
-                   <div class="busca row">
-                     <!-- form de buscar  -->
-                         <form action="">
-                            <div class="row">  
-                             <div class="input-one col">
-                             <label for=""> Pet?</label>
-                             <select name="" id="">
-                                 <option value="">🐶 Cachorros</option>
-                                 <option value="">🙀  Gatos</option>
-                                 <option value="">🦈  Peixe</option>
-                                 <option value="">🐦  Pássaro</option>
-                             </select>
-                            </div>
-                            <div class="input-one col ">
-                                <label for=""> Estado:</label>
-                                <select name="" id="">
-                                    <option value="paraiba"><i class="fas fa-city"></i>Acre</option> 
-                                    <option value=""><i class="fas fa-city"></i>Alagoas</option>
-                                    <option value=""><i class="fas fa-city"></i>Amapá</option>
-                                    <option value=""><i class="fas fa-city"></i>Amazonas</option>
-                                    <option value=""><i class="fas fa-city"></i>Bahia</option>
-                                    <option value=""><i class="fas fa-city"></i>Ceara</option>
-                                    <option value=""><i class="fas fa-city"></i>Distrito Federal</option>
-                                    <option value=""><i class="fas fa-city"></i>Esperíto Santo</option>
-                                    <option value=""><i class="fas fa-city"></i>Goiás</option>
-                                    <option value=""><i class="fas fa-city"></i>Maranhão</option>
-                                    <option value=""><i class="fas fa-city"></i>Mato Grosso</option>
-                                    <option value=""><i class="fas fa-city"></i>Mato Grosso do Sul</option>
-                                    <option value=""><i class="fas fa-city"></i>Minas Gerais</option>
-                                    <option value=""><i class="fas fa-city"></i>Pará</option>
-                                    <option value=""><i class="fas fa-city"></i>Paraíba</option>
-                                    <option value=""><i class="fas fa-city"></i>Paraná</option>
-                                    <option value=""><i class="fas fa-city"></i>Pernambuco</option>
-                                    <option value=""><i class="fas fa-city"></i>Piauí</option>
-                                    <option value=""><i class="fas fa-city"></i>Rio de Janeiro</option>
-                                    <option value=""><i class="fas fa-city"></i>Rio Grande do Norte</option>
-                                    <option value=""><i class="fas fa-city"></i>Rio Grande do Sul</option>
-                                    <option value=""><i class="fas fa-city"></i>Rondônia</option>
-                                    <option value=""><i class="fas fa-city"></i>Roraima</option>
-                                    <option value=""><i class="fas fa-city"></i>Santa Catarina</option>
-                                    <option value=""><i class="fas fa-city"></i>São Paulo</option>
-                                    <option value=""><i class="fas fa-city"></i>Sergipe</option>
-                                    <option value=""><i class="fas fa-city"></i>Tocantins</option>
-                                    
-                                </select>
-
-                                
-                               </div>
-                               <div class="input-one col">
-                                <label for="">Tamanho:</label>
-                                <select name="" id="">
-                                    <option value="">🐕‍🦺 Pequeno</option>
-                                    <option value="">🐕 Grande</option>
-                                </select>
-                                
-                               </div>
-                               <div class="button col">
-                                  <button class="btn pesquisar"> <a href="pets.html"> <i class="fas fa-search"></i> Buscar </a></button>                  
-                               </div>    
-                            </div>
-                         </form>
-                       
-                   </div>         
-        </section class="services">
-                  <!-- Section de serviços está dividida em 3 divs principais, services-one, services-secundary e services-two -->
-        <div class = "services">
-          <div class="services-one">
-            <div class="title-services container">
-              <h1 class="h1-services">Porque você usa o <br> <span> PetAmigo </span></h1>
-              <h6>Encontre uma babá verificada.</h6>
-              <p class="p-services">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus numquam voluptas exercitationem, ea ullam cum repel. 
-                Lorem ipsum dolor sit amet consectetur  
-              </p>
-
-              <a class="link-services" href="">Nossos parceiros <i class="fas fa-link"></i></a>
-
-            </div>
-            <div class="services-secundary">
-              <div class="services-secundary-title">
-                <h2><i class="star fas fa-star"></i> Trustpilot</h2>
-              </div>
-              <div class="services-secundary-text">
-                <p class="services-secundary-p">Baseado  nos <span>1.000</span> reviews no Trustpilot</p>
-                <p class="services-secundary-p-two">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a  class="services-secundary-p-link" href="">Ir para o Trustpilot <i class="fas fa-link"></i></a>
-              </div>
+  </head>
+  <body>
+    <!-- Tag de abertura do header  -->
+    <header>
+      <div class="container">
+        <!-- Tag de abertura do menu de navegação  -->
+        <nav class="navbar navbar-expand-lg">
+          <div class="dropdown">
+            <button class="btn dropdown-toggle btn-drop" type="button"
+              id="dropdownMenuButton" data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false">
+              Menu
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="index.html">Início</a>
+              <a class="dropdown-item" href="serviços.html">Serviços</a>
+              <a class="dropdown-item" href="sobre.html">Sobre</a>
+              <a class="dropdown-item" href="contato.html">Contato</a>
             </div>
           </div>
-          <div class="services-two "> 
-              <div class="services-two-secundary d-flex justify-content-center">
-                <div class="border"></div>
-                  <img class="dog-services" src="assets/images/Dog.png" alt="">
-              </div>
+          <a class="logo navbar-brand" href="index.html">
+            <i class="far fa-heart heart"></i>
+            <i class="fas fa-paw"></i>
+            PetAmigo
+          </a>
+          <div class="collapse navbar-collapse d-flex justify-content-center"
+            id="navbarText">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="link" href="index.html" active style="color:#e89588">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="link" href="serviços.html">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="link" href="sobre.html">Sobre Nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="link" href="contato.html">Contato</a>
+              </li>
+            </ul>
           </div>
-          
+
+          <div class="d-flex justify-content-end">
+            <!-- Div com os botões de cadastro e de entrar do   -->
+            <div class="buttons d-flex justify-content-between">
+              <a href="login.html" class="entrar">Entrar</a>
+              <button class="btn cadastro">
+                <a href="cadastro.html">
+                  Cadastrar-se
+                </a>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Tag de fechamento do header  -->
+    <section class="main">
+      <!-- Section main com os 3 títulos inicais da página e o form de buscar  -->
+      <div class="container">
+        <div class="titulos-section">
+          <h1 class="h1-section">PetAmigo</h1>
+          <h1 class="h1-section-sub">Adote um pet <br> para o seu lar!</h1>
+          <p class="p-section">Você pode encontrar um amigo para o seu <br>
+            Pet e fazer novas amizades.</p>
         </div>
-        <section>
-        <section class="container sobre d-flex bd-highlight">
-                    <!-- Section sobre está dividida em 2 divs principais, sobre-left e sobre-right  -->
-          <div class="sobre-left d-flex  ">
-            <div class="sobre-title">
-            <h2 class="h2-sobre">O que as pessoas estão falando <br> sobre o <span>PetAmigo</span></h2>
-            <p class="p-sobre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam quod ad distinctio quo inventore quae nobis voluptatibus vitae deserunt, aperia</p>
+
+        <div class="busca row">
+          <!-- form de buscar  -->
+          <form action="">
+            <div class="row">
+              <div class="input-one col">
+                <label for=""> Pet?</label>
+                <select name="" id="">
+                  <option value="">🐶 Cachorros</option>
+                  <option value="">🙀 Gatos</option>
+                  <option value="">🦈 Peixe</option>
+                  <option value="">🐦 Pássaro</option>
+                </select>
+              </div>
+              <div class="input-one col">
+                <label for=""> Estado:</label>
+                <select name="" id="">
+                  <option value="paraiba"><i class="fas fa-city"></i>Paraíba</option>
+                  <option value=""><i class="fas fa-city"></i>Acre</option>
+                  <option value=""><i class="fas fa-city"></i>Alagoas</option>
+                  <option value=""><i class="fas fa-city"></i>Amazonas</option>
+                  <option value=""><i class="fas fa-city"></i>Bahia</option>
+                </select>
+              </div>
+              <div class="input-one col">
+                <label for="">Tamanho:</label>
+                <select name="" id="">
+                  <option value="">🐕‍🦺 Pequeno</option>
+                  <option value="">🐕 Grande</option>
+                </select>
+
+              </div>
+              <div class="button col">
+                <button class="btn pesquisar"> <a href="pets.html"> <i
+                      class="fas fa-search"></i> Buscar </a></button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <!-- Section de serviços está dividida em 3 divs principais, services-one, services-secundary e services-two -->
+      <div class="services">
+        <div class="services-one">
+          <div class="title-services container">
+            <h1 class="h1-services">Porque você usa o <br> <span> PetAmigo
+              </span></h1>
+            <h6>Encontre uma babá verificada.</h6>
+            <p class="p-services">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+              numquam voluptas exercitationem, ea ullam cum repel.
+              Lorem ipsum dolor sit amet consectetur
+            </p>
+
+            <a class="link-services" href="">Nossos parceiros <i class="fas
+                fa-link"></i></a>
+
           </div>
+          <div class="services-secundary">
+            <div class="services-secundary-title">
+              <h2><i class="star fas fa-star"></i> Trustpilot</h2>
+            </div>
+            <div class="services-secundary-text">
+              <p class="services-secundary-p">Baseado nos <span>1.000</span>
+                reviews no Trustpilot</p>
+              <p class="services-secundary-p-two">Lorem ipsum dolor sit amet
+                consectetur adipisicing elit.</p>
+              <a class="services-secundary-p-link" href="">Ir para o
+                Trustpilot <i class="fas fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="services-two">
+          <div class="services-two-secundary d-flex justify-content-center">
+            <div class="border"></div>
+            <img class="dog-services" src="assets/images/Dog.png" alt="">
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section>
+      <section class="container sobre d-flex bd-highlight">
+        <!-- Section sobre está dividida em 2 divs principais, sobre-left e sobre-right  -->
+        <div class="sobre-left d-flex">
+          <div class="sobre-title">
+            <h2 class="h2-sobre">O que as pessoas estão falando <br> sobre o
+              <span>PetAmigo</span>
+            </h2>
+            <p class="p-sobre">
+              Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Culpa ullam quod ad distinctio quo inventore
+              quae nobis voluptatibus vitae deserunt, aperia
+            </p>
+          </div>
+
           <div class="sobre-right">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide"
+              data-bs-ride="carousel">
               <div class="buttons d-flex justify-content-center">
-              <button class="button-carousel" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span  aria-hidden="true"><i class="fas fa-arrow-left"></i></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class=" button-carousel" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
+                <button class="button-carousel" type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev">
+                  <span aria-hidden="true"><i class="fas fa-arrow-left"></i></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="button-carousel" type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next">
+                  <span aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
               <div class="carousel-inner">
-                
                 <div class="carousel-item active">
-                  <div class="items d-flex ">
+                  <div class="items d-flex">
                     <div class="test d-flex">
-                    <div class="avatar"><img class="avatar"src="https://image.freepik.com/vetores-gratis/imagem-de-perfil-de-personagem-de-desenho-animado-avatar-jovem_18591-55058.jpg" alt=""> </div>
-                    <div class="items-texts">
-                      <i class="fas fa-star star"></i> <i class="fas fa-star star"></i> <i class="fas fa-star star"></i>
-                    <p class="p-items">Lorem ipsum dolor sit amet cLorem ipsum dolor sit amet c</p>
-                 </div>
-                </div>
-                <div class="display">
-                <div class="d-flex test-one ">
-                 <div class="avatar"><img class="avatar"src="https://image.freepik.com/vetores-gratis/imagem-de-perfil-de-personagem-de-desenho-animado-avatar-jovem_18591-55058.jpg" alt=""> </div>
-                 <div class="items-texts">
-                   <i class="fas fa-star star"></i> <i class="fas fa-star star"></i> <i class="fas fa-star star"></i>
-                 <p class="p-items">Lorem ipsum dolor sit amet cLorem ipsum dolor sit amet c</p>
-              </div>
-            </div>
-          </div>
-                  </div>
-                </div>
-                
-                <div class="carousel-item">
-                  <div class="items d-flex ">
-                    <div class="test d-flex">
-                      <div class="avatar"><img class="avatar"src="https://image.freepik.com/vetores-gratis/imagem-de-perfil-de-personagem-de-desenho-animado-avatar-jovem_18591-55058.jpg" alt=""> </div>
+                      <div class="avatar">
+                        <img class="avatar"
+                          src="https://image.freepik.com/vetores-gratis/imagem-de-perfil-de-personagem-de-desenho-animado-avatar-jovem_18591-55058.jpg"
+                          alt="">
+                      </div>
                       <div class="items-texts">
-                        <i class="fas fa-star star"></i> <i class="fas fa-star star"></i><i class="fas fa-star star"></i> <i class="fas fa-star star"></i>
-                      <p class="p-items">Lorem ipsum dolor sit amet cLorem ipsum dolor sit amet c</p>
-                   </div>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <p class="p-items">
+                          Lorem ipsum dolor sit amet cLorem
+                          ipsum dolor sit amet c
+                        </p>
+                      </div>
+                    </div>
+                    <div class="display">
+                      <div class="d-flex test-one">
+                        <div class="avatar">
+                          <img class="avatar"
+                            src="https://image.freepik.com/vetores-gratis/imagem-de-perfil-de-personagem-de-desenho-animado-avatar-jovem_18591-55058.jpg"
+                            alt="">
+                        </div>
+                        <div class="items-texts">
+                          <i class="fas fa-star star"></i>
+                          <i class="fas fa-star star"></i>
+                          <i class="fas fa-star star"></i>
+                          <p class="p-items">
+                            Lorem ipsum dolor sit amet
+                            cLorem ipsum dolor sit amet c
+                          </p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="display">
-                  <div class="d-flex test-one ">
-                   <div class="avatar"><img class="avatar"src="https://image.freepik.com/vetores-gratis/imagem-de-perfil-de-personagem-de-desenho-animado-avatar-jovem_18591-55058.jpg" alt=""> </div>
-                   <div class="items-texts">
-                     <i class="fas fa-star star"></i> <i class="fas fa-star star"></i> <i class="fas fa-star star"></i>
-                   <p class="p-items">Lorem ipsum dolor sit amet cLorem ipsum dolor sit amet c</p>
                 </div>
-              </div>
-            </div>
-                </div>
-              </div>
-                
-              </div>
-            </div>
 
+                <div class="carousel-item">
+                  <div class="items d-flex">
+                    <div class="test d-flex">
+                      <div class="avatar">
+                        <img class="avatar"
+                          src="https://image.freepik.com/vetores-gratis/imagem-de-perfil-de-personagem-de-desenho-animado-avatar-jovem_18591-55058.jpg"
+                          alt="">
+                      </div>
+                      <div class="items-texts">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <p class="p-items">
+                          Lorem ipsum dolor sit amet cLorem
+                          ipsum dolor sit amet c
+                        </p>
+                      </div>
+                    </div>
+                    <div class="display">
+                      <div class="d-flex test-one">
+                        <div class="avatar">
+                          <img class="avatar"
+                            src="https://image.freepik.com/vetores-gratis/imagem-de-perfil-de-personagem-de-desenho-animado-avatar-jovem_18591-55058.jpg"
+                            alt="">
+                        </div>
+                        <div class="items-texts">
+                          <i class="fas fa-star star"></i>
+                          <i class="fas fa-star star"></i>
+                          <i class="fas fa-star star"></i>
+                          <p class="p-items">
+                            Lorem ipsum dolor sit amet
+                            cLorem ipsum dolor sit amet c
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </section>
-        <footer>
-              <!-- Footer está dividida em colunas cada coluna é uma div chamada footer-section-one e logo abaixo está o copyright com a logo -->
+        </div>
+      </section>
+    </section>
 
-          <div class="container">
-            <div class="footer-section d-flex">
-              <div class="footer-section-one">
-             <h3 class="footer-h2">Veja mais</h3>
-              <div class="p">
+    <footer>
+      <!-- Footer está dividida em colunas cada coluna é uma div chamada footer-section-one e logo abaixo está o copyright com a logo -->
+      <div class="container">
+        <div class="footer-section d-flex">
+          <div class="footer-section-one">
+            <h3 class="footer-h2">Veja mais</h3>
+            <div class="p">
               <a href=""><p>Como funciona</p></a>
-             <a href="FAQ.html"> <p>FAQ para adoção de Pet</p></a>
-             <a href=""> <p>Política de devoluções</p></a>
-              </div>
-              </div>
-                <div class="footer-section-one">
-                 <h3 class="footer-h2">Tudo sobre PetAmigo</h3>
-                  <div class="p">
-                  <a href=""><p>Nossa história</p></a>
-                 <a href=""> <p>Ajuda</p></a>
-                 <a href=""> <p>Métodos de Pagamento</p></a>
-                  </div>
-                  </div>
-                  <div class="footer-section-one">
-                   <h3 class="footer-h2">Se conecte com a gente</h3>
-                    <div class="p">
-                    <a href=""><p>Faacebook</p></a>
-                   <a href=""> <p>Twitter</p></a>
-                   <a href=""> <p>Instragram</p></a>
-                    </div>
-                    </div>
+              <a href="FAQ.html"> <p>FAQ para adoção de Pet</p></a>
+              <a href=""> <p>Política de devoluções</p></a>
             </div>
           </div>
-          <div class="copyright container">    
-            <div class="logo-footer d-flex">
-              <i class="far fa-heart heart fs-1 test2"></i><i class="fas fa-paw test1 mt-3  fs-5  "></i><a href=""><h3 class="mt-2"> PetAmigo</h3></a>
+          <div class="footer-section-one">
+            <h3 class="footer-h2">Tudo sobre PetAmigo</h3>
+            <div class="p">
+              <a href=""><p>Nossa história</p></a>
+              <a href=""><p>Ajuda</p></a>
+              <a href=""><p>Métodos de Pagamento</p></a>
             </div>
-            <div class="copyright-footer"><p>Copyright 2021. Todos os direitos são reservação. Termos e condições e Privacidade & Política de cookies .</p> </div>
           </div>
-        </footer>
-</body>
+          <div class="footer-section-one">
+            <h3 class="footer-h2">Se conecte com a gente</h3>
+            <div class="p">
+              <a href=""><p>Facebook</p></a>
+              <a href=""><p>Twitter</p></a>
+              <a href=""><p>Instragram</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright container">
+        <div class="logo-footer d-flex">
+          <i class="far fa-heart heart fs-1 test2"></i>
+          <i class="fas fa-paw test1 mt-3 fs-5"></i>
+          <a href="">
+            <h3 class="mt-2">
+              PetAmigo
+            </h3>
+          </a>
+        </div>
+        <div class="copyright-footer">
+          <p>
+            Copyright 2021. Todos os
+            direitos são reservação. Termos e condições e Privacidade &
+            Política de cookies .
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
