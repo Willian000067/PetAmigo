@@ -1,216 +1,208 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:300,400,500,600,700,800,900&display=swap');
 
-*{
+* {
     margin: 0;  
     padding: 0;
     font-family: 'Poppins' , sans-serif;
     box-sizing: border-box;
-    scroll-behavior: smooth;
-    
-}
-body{
-    min-height:100vh;
-     overflow-x: hidden;
+    scroll-behavior: smooth;  
 }
 
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
 
-header{
+header {
     background-color: rgba(26,81,99,255);
     color: #fff;
     height: 70px;
     position: fixed;
-        z-index:99;
-        top:0;
-        left:0;
-        right: 0;
-   
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
-header a{
+header a {
     color: #fff;
 }
 
-header a:hover{
+header a:hover {
     color: #fff;
 }
-.logo{
+
+.logo {
     color:white;
     font-weight: bold;
 }
-.fa-paw{
+
+.fa-paw {
     color:#fc9b8b;
-    position:relative;
+    position: relative;
     top: -6px;
-    left:-12px;
+    left: -12px;
     font-size: 17px;
 }
-.heart{
+
+.heart {
     color:#fc9b8b;
     font-size: 46px;
-    position:relative;
+    position: relative;
     top: 5px;
-    left:25px;
+    left: 25px;
 }
-.test{
+
+.test {
     margin-left: 5px;
 }
-.test1{
-    margin-left: 6px;
+
+.test1 {
+    margin-left: 12px;
+    width: 15px !important;
     margin-top: 30px;
 }
 
-.test2{
+.test2 {
     margin-top: -4px;
 }
-.logo:hover{
+
+.logo:hover {
     color:white;
-    
 }
-.link{
+
+.link {
     margin-top: 5px;
     color: #fff;
     text-decoration: none;
 }
-.link:hover{
-    color:#e89588;
 
+.link:hover {
+    color:#e89588;
 }
-.nav-item{
+
+.nav-item {
     color: #fff;
     margin-left: 25px;
     font-weight: bold;
-    
 }
 
-.entrar{
+.entrar {
     margin-top: 10px;
     text-decoration: none;
     margin-right: 20px;
     color: #e89588;
 }
-.entrar:hover{
+
+.entrar:hover {
     color: #fc6048;
-
-}
-.btn-drop{
-    background-color: #e89588;
-    color: #fff;
-     border: 1px solid #e89588;
-}
-.btn-drop:hover{
-    background-color: #e89588;
-    color: #fff;
-     border: 1px solid #e89588;
 }
 
-.cadastro{
+.btn-drop {
+    background-color: #e89588;
+    color: #fff;
+    border: 1px solid #e89588;
+}
+
+.btn-drop:hover {
+    background-color: #e89588;
+    color: #fff;
+    border: 1px solid #e89588;
+}
+
+.cadastro {
     background-color:#fc9b8b;
     color:white;
+}
 
-    }
-
-    .cadastro:hover{
-        background-color: #fc745f;
-        color: white;
-    }
+.cadastro:hover{
+    background-color: #fc745f;
+    color: white;
+}
  
+@media (max-width: 913px) { 
+    header {
+        width: 100%;
+    }
 
+    header .navbar-nav {
+        display: none;
+    }
 
+    header .logo {
+        margin-top: 10px;    
+    }
+
+    .logo {
+        margin-left: 80px;
+    }
+
+    nav {
+        display:flex;   
+    }
+
+    header .buttons {
+        position:absolute;
+        right: 100px;
+        top: 20px;
+    }
     
-   
-    @media (max-width: 913px) { 
-        header{
-            width: 100%;
-        }
-        header .navbar-nav{
-            display: none;
-            
-        }
-        header .logo{
-            margin-top: 10px;
-            
-        }
-        .logo{
-            margin-left: 80px;
-        }
+    .entrar {
+        text-decoration: none;
+        width: 30px;
+        color: #e89588;
+    }
 
-        nav{
-            display:flex;   
-        }
-
-       header .buttons{
-            position:absolute;
-            right: 100px;
-            top:20px;
-        }
-        
-        .entrar{
-            
-            text-decoration: none;
-            width: 30px;
-            color: #e89588;
-        }
-
-      .link{
-            
-            
-            
-            text-decoration: none;
-        }
-     }
+    .link {
+        text-decoration: none;
+    }
+}
       
     
-     @media (max-width: 520px) { 
-        header{
-            width: 100%;
-        }
-        header .navbar-nav{
-            display: none;
-            
-        }
-        header .logo{
-            margin-top: 10px;
-            
-        }
-        .logo{
-display: none;        }
+@media (max-width: 520px) { 
+    header {
+        width: 100%;
+    }
 
-        nav{
-            display:flex;   
-        }
+    header .navbar-nav {
+        display: none;
+    }
 
-       header .buttons{
-            position:absolute;
-            left: 190px;
-            top:20px;
-        }
+    header .logo {
+        margin-top: 10px;
+    }
 
-     
+    .logo {
+        display: none;
+    }
 
-      
+    nav {
+        display: flex;   
+    }
 
-       .cadastro{
-            position: absolute;
-            right: -80px;
-            width: 80px;
-            height: 40px;
-            font-size: 12px;
-            font-weight: bold;
+    header .buttons {
+        position: absolute;
+        left: 190px;
+        top: 20px;
+    }
 
-        }
+    .cadastro {
+        position: absolute;
+        right: -80px;
+        width: 80px;
+        height: 40px;
+        font-size: 12px;
+        font-weight: bold;
+    }
         
-        .entrar{
-            
-            text-decoration: none;
-            width: 30px;
-            color: #e89588;
-        }
+    .entrar {
+        text-decoration: none;
+        width: 30px;
+        color: #e89588;
+    }
 
-        .link{
-            
-            
-            
-            text-decoration: none;
-        }
-     }
+    .link {
+        text-decoration: none;
+    }
+}
