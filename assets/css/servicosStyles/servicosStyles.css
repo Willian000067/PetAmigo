@@ -7,12 +7,13 @@
 }
     .main{
         margin-top:50px ;
-        height:500px;
+        height:400px;
         background-color: rgba(26,81,99,255);
         position: relative;
+        width: 100%;
+        
     }    
-
-
+    
 
     .main-left{
      display:flex;

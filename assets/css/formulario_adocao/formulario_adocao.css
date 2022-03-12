@@ -1,10 +1,8 @@
-.nomeCompleto {
-  position: relative;
-    justify-content: center;
-    top: 20px;
-    width: 400px;
-    height: 50px;
-    margin-top: 20px;
-    border-radius: 15px;
-    border: 2px solid #e5e5e5;
-}
+.navbar-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: box-shadow .15s ease-in-out;
