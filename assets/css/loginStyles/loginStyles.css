@@ -7,13 +7,39 @@
         margin: 2rem !important;
         width: 100%;
     }
+
+    .container {
+        margin: 0 auto !important;
+        max-width: 100vw;
+    }
+
+    .collapse {
+        display: none !important;
+    }
 }
 
-/* @media (max-width: 992px) {
-    .navbar {
+@media (min-width: 992px) { 
+    .dropdown {
         display: none;
     }
-} */
+}
+
+.buttons {
+    position: inherit !important;
+}
+
+.logo {
+    margin: 0 !important;
+}
+
+header>.container {
+    display: flex;
+    width: 100vw;
+}
+
+header>.container>.navbar {
+    width: 100vw;
+}
 
 .sections {
     display: flex;

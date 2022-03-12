@@ -464,7 +464,7 @@ a:hover {
         margin-left: 10px;
         margin-top: 15px;
         color: white;
-        width:50px;    
+        width: 50px;    
     }
 
     .pesquisar {
@@ -482,7 +482,7 @@ a:hover {
     }
 
     .display {
-        display:none;
+        display: none;
     }
 }
 
