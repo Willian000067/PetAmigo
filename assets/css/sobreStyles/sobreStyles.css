@@ -1,117 +1,105 @@
 .main{
-    margin-top:50px ;
-    height:500px;
+    margin-top: 50px;
+    height: 500px;
     background-color: rgba(26,81,99,255);
     position: relative;
 }    
 
-
-
-.main-left{
- display:flex;
-flex-direction: column;
-text-align: start;
-position: absolute;
-top: 70px;
-left: 100px;
-width: 60%;
+.main-left {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    width: 60%;
 }   
 
-.main-left h1{
+.main-left h1 {
     font-weight: 600    ;    
     color: white;
 }   
-.main-left p{
-   
+
+.main-left p{   
     font-weight: bold;    
     color: white;   
 }   
-.main-button-left{
+
+.main-button-left {
     background-color:#fc9b8b;
     color:white;
     width: 150px;
     border: 1px solid #fc9b8b;
 }
 
-.main-button-left:hover{
+.main-button-left:hover {
     background-color: #fc745f;
     color: white;
     border: 1px solid #fc9b8b;
 }
 
-.main-right{
-
+.main-right {
     position: absolute;
     bottom: 0px;
     right: 0px;
     width: 40%;
 }
-.border-header{
-    /* unsplash:eoqnr8ikwFE */
 
-position: relative;
-width: 330px;
-height: 440px;
-
-top:-20px;
-left: 110px;
-border: 1px solid #b14802;
-box-sizing: border-box;
-border-radius: 250px 250px 0px 0px;
-
+.border-header {
+    position: relative;
+    width: 330px;
+    height: 440px;
+    top: -20px;
+    left: 110px;
+    border: 1px solid #b14802;
+    box-sizing: border-box;
+    border-radius: 250px 250px 0px 0px;
 }
 
-.img-right{
-    /* unsplash:ZCHj_2lJP00 */
-bottom:0px;    
-position: absolute;
-width: 330px;
-height:430px;
-margin-left: 80px;
-background: url(.jpg), #C4C4C4;
-border-radius: 250px 250px 0px 0px;
-
+.img-right {
+    bottom: 0px;    
+    position: absolute;
+    width: 330px;
+    height: 430px;
+    margin-left: 80px;
+    background: url(.jpg), #C4C4C4;
+    border-radius: 250px 250px 0px 0px;
 }
 
-
-.sobre{
+.sobre {
     margin-top: 70px;
-    
-    display:flex;
-    
-    
+    display: flex;
 }
 
-.sobre-left{
+.sobre-left {
     width: 60%;
     display: flex;
     flex-direction: column;
 }
 
-.sobre-left h2{
+.sobre-left h2 {
     color:#fc9b8b;
     font-weight: bold;
     margin-bottom: 10px;
     margin-left: 10px;
 }
 
-.h5{
+.h5 {
     border-left: 3px solid #fc745f;
     height: 100px;
 }
 
-.h5 h3{
+.h5 h3 {
     font-weight: 500;
-    color:  rgba(26,81,99,255);
+    color: rgba(26,81,99,255);
     margin-left: 10px;
 }
-.sobre-left p{
+
+.sobre-left p {
     margin-top: 20px;
     font-weight: 600;
-    color:rgba(26,81,99,255);
+    color: rgba(26,81,99,255);
 }
-
-
 
 .five {
     position: absolute;
@@ -119,15 +107,15 @@ border-radius: 250px 250px 0px 0px;
     border-width: 20px;
     border-color: #f0efef;
     border-radius: 100%;
-    width:350px;
-    height:350px;
-    right: -20px;
-  }
+    width: 350px;
+    height: 350px;
+    right: 15px;
+}
 
-.dados-ongs{
+.dados-ongs {
     position: absolute;
-    width:100px;
-    height:100px;
+    width: 100px;
+    height: 100px;
     top: 700px;
     right: 300px;
     background-color: #fc9b8b;
@@ -135,52 +123,44 @@ border-radius: 250px 250px 0px 0px;
     border-radius: 10px;
     -webkit-box-shadow: 5px 5px 0px 0px  #f0efef, 10px 10px 0px 0px ; 
     box-shadow: 5px 5px 0px 0px  #f0efef, 10px 10px 0px 0px ;
-}  
-.texts{
-    display:flex;
+}
+
+.texts {
+    display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    
-   
-    
 }
 
-.texts h5{
-    font-weight:bold;
-    font-size:15px;
+.texts h5 {
+    font-weight: bold;
+    font-size: 15px;
     margin-top: 15px;
-   
-    
 }
 
-.texts .i{
+.texts .i {
     margin-top: 10px;
 }
 
-
-.dados-ongs-two{
-    
-        position: absolute;
-        width:100px;
-        height:100px;
-        top: 627px;
-        right: 100px;
-        background-color: #fff;
-        color: rgba(26,81,99,255);
-        border-radius: 10px;
-        -webkit-box-shadow: 5px 5px 0px 0px  #f0efef, 10px 10px 0px 0px ; 
-        box-shadow: 5px 5px 0px 0px  #f0efef, 10px 10px 0px 0px ;
-  
+.dados-ongs-two {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 627px;
+    right: 100px;
+    background-color: #fff;
+    color: rgba(26,81,99,255);
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 0px 0px  #f0efef, 10px 10px 0px 0px ; 
+    box-shadow: 5px 5px 0px 0px  #f0efef, 10px 10px 0px 0px ;
 }
 
-.dados-ongs-three{
-    
+.dados-ongs-three {
     position: absolute;
-    width:100px;
-    height:100px;
+    width: 100px;
+    height: 100px;
     top: 800px;
     right: 150px;
     background-color: #fff;
@@ -188,46 +168,73 @@ border-radius: 250px 250px 0px 0px;
     border-radius: 10px;
     -webkit-box-shadow: 5px 5px 0px 0px  #f0efef, 10px 10px 0px 0px ; 
     box-shadow: 5px 5px 0px 0px  #f0efef, 10px 10px 0px 0px ;
-
 }
 
+@media (max-width: 1200px) {
+    .container {
+        margin: 0 auto !important;
+        max-width: 100vw;
+    }
 
+    .collapse {
+        display: none !important;
+    }
 
-@media (min-width: 914px) { 
-    .dropdown{
+    .main-right, .sobre-right {
         display: none;
     }
-
 }
-@media (max-width: 913px) {
-    .dropdown{
-        position:absolute;
-        left: 20px;
-        bottom: 15px;
+
+@media (min-width: 992px) { 
+    .dropdown {
+        display: none;
     }
-    .main-left
-    p{
+}
+
+.buttons {
+    position: inherit !important;
+}
+
+.logo {
+    margin: 0 !important;
+}
+
+header>.container {
+    display: flex;
+    width: 100vw;
+}
+
+header>.container>.navbar {
+    width: 100vw;
+}
+
+@media (max-width: 913px) {
+    .main-left p {
         width:230px;
     }
-    .img-right{
+
+    .img-right {
         right: 160px;
         height: 330px;
         width: 340px;
     }
 
-    .border-header{
-        left:-180px;
-        height:350px;
+    .border-header {
+        left: -180px;
+        height: 350px;
         width: 360px;
     }
-    .main-right{
+
+    .main-right {
         right: -90px
     }
-     .h5 h3{
+
+    .h5 h3 {
         margin-top: 10px;
         font-size: 20px;
     }
-    .sobre-left p{
+
+    .sobre-left p {
         margin-top: 40px;
         font-size: 14px;
     }
@@ -237,75 +244,74 @@ border-radius: 250px 250px 0px 0px;
         width: 250px;
     }
 
-    .dados-ongs{
+    .dados-ongs {
         right: 200px;
     }
-    .dados-ongs-two{
+
+    .dados-ongs-two {
         right: 30px;
     }
 
-    .dados-ongs-three{
+    .dados-ongs-three {
         right: 60px;
     }
 
-    .copyright-footer p{
+    .copyright-footer p {
         font-size:14px;
-    }
-
-    @media (max-width: 533px) {
-        .main-right{
-            display: none;
-        }
-        .main-left{
-            margin-left: -80px;
-        }
-      
-    
-        .border-header{
-            height:140px;
-            width: 160px;
-            left: 250px;
-        }
-        .cadastro{
-            position: relative;
-            left: 50px;
-        }
-        .h5 h3{
-            margin-top: 10px;
-            font-size: 14px;
-        }
-        .sobre-left p{
-            margin-top: 40px;
-            font-size: 12px;
-        }
-    
-        .five {
-            height: 200px;
-            width: 150px;
-        }
-    
-        .dados-ongs{
-            right: 80px;
-            height: 100px;
-            width: 70px;
-        }
-        .dados-ongs-two{
-            right: 0px;
-            height: 100px;
-            width: 70px;
-        }
-    
-        .dados-ongs-three{
-            right: 0px;
-            height: 100px;
-            width: 70px;
-            
-        }
-    
-        .copyright-footer p{
-            font-size:10px;
-        }
     }
 }
 
+@media (max-width: 533px) {
+    .main-right {
+        display: none;
+    }
 
+    .main-left {
+        margin-left: -80px;
+    }
+    
+
+    .border-header {
+        height: 140px;
+        width: 160px;
+        left: 250px;
+    }
+
+    .h5 h3 {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .sobre-left p {
+        margin-top: 40px;
+        font-size: 12px;
+    }
+
+    .five {
+        height: 200px;
+        width: 150px;
+    }
+
+    .dados-ongs {
+        right: 80px;
+        height: 100px;
+        width: 70px;
+    }
+
+    .dados-ongs-two {
+        right: 0px;
+        height: 100px;
+        width: 70px;
+    }
+
+    .dados-ongs-three {
+        right: 0px;
+        height: 100px;
+        width: 70px;
+        
+    }
+
+    .copyright-footer p {
+        font-size: 10px;
+    }
+}
