@@ -126,8 +126,8 @@ option {
     background-color: #255a6b;
     position: absolute;
     right: 0;
-    margin-top: -170px;
-    margin-right: -230px;
+    top: 150px;
+    right: -230px;
     width: 250px;
     height: 270px;
     border-bottom-left-radius: 200px;
@@ -223,12 +223,10 @@ p {
 }
 
 .sobre-title {
-    width: 400px;
     position: absolute;
-    margin-top: 30px;
-    height: 500px;
+    top: 30px;
     width: 70%;
-    margin-left: 20px;
+    left: 20px;
 }
 
 .h2-sobre {
@@ -436,7 +434,11 @@ a:hover {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
+    .services-secundary {
+        right: -250px;
+    }
+
     .container {
         margin: 0 auto !important;
         max-width: 100vw;
@@ -453,7 +455,15 @@ a:hover {
     }
 }
 
-@media (max-width: 1080px) { 
+@media (max-width: 1090px) {
+    .services-two-secundary {
+        display: none !important;
+    }
+
+    .busca {
+        width: 100%;
+    }
+
     .border {
         width: 150px;
     }
@@ -467,16 +477,6 @@ a:hover {
         width: 50px;    
     }
 
-    .pesquisar {
-        background-color:#1a5163;
-        margin-top: 50px;
-        margin-left: 18px;
-        width:100px;
-        padding: 10px;
-        color: white;
-        border-radius: 250px 250px 250px 250px;
-    }
-
     .button-carousel {
         right: -250px;
     }
@@ -487,12 +487,8 @@ a:hover {
 }
 
 @media (max-width: 770px) {
-    .border {
-        width: 150px;
-    }
-
-    .busca {
-        width: 100%;
+    .carousel-buttons {
+        display: none !important;
     }
 
     .busca label {
@@ -520,14 +516,26 @@ a:hover {
         background-color:#1a5163;
         margin-top: 40px;
         margin-left: 18px;
-        width:100px;
+        width: 100px;
         padding: 10px;
         color: white;
         border-radius: 250px 250px 250px 250px;
     }
 
-    .test {
-        width: 250px;
+    .services {
+        margin-top: 20px;
+    }
+
+    .services-one {
+        height: 430px;
+    }
+
+    .link-services {
+        font-size: 16px;
+    }
+
+    .h1-services {
+        font-size: 28px;
     }
 
     .button-carousel {
