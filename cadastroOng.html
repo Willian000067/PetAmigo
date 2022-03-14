@@ -91,193 +91,191 @@
                 </nav>
             </div>
         </header>
-        <div class="sections-ong">
-            <section class="main">
-                <div class="form">
-                    <h1>Cadastrar-se</h1>
-                    <form id="login-form">
-                        <div class="col-sm-12">
-                            <div class="row">
-                                <h2 class="col-sm-3"><label for="fisica">Pessoa
-                                        Física</label></h2>
-                                <a class="col-sm-1" href="cadastro.html">
-                                    <button type="button" class="btn fisica"></button>
-                                </a>
+        <section class="main">
+            <div class="form">
+                <h1>Cadastrar-se</h1>
+                <form id="login-form">
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <h2 class="col-sm-3"><label for="fisica">Pessoa
+                                    Física</label></h2>
+                            <a class="col-sm-1" href="cadastro.html">
+                                <button type="button" class="btn fisica"></button>
+                            </a>
 
-                                <h2 class="col-sm-3"><label for="ong"
-                                        id="onglabel">ONG</label></h2>
-                                <a class="col-sm-1">
-                                    <button type="button" class="btn ong
-                                        active"></button>
-                                </a>
-                            </div>
+                            <h2 class="col-sm-3"><label for="ong"
+                                    id="onglabel">ONG</label></h2>
+                            <a class="col-sm-1">
+                                <button type="button" class="btn ong
+                                    active"></button>
+                            </a>
                         </div>
+                    </div>
 
-                        <div class="col-sm-12">
-                            <label for="razaoSocial">Razão Social:</label>
-                            <input type="text" name="razaoSocial"
-                                id="razaoSocial" data-min-length="2" required>
-                        </div>
+                    <div class="col-sm-12">
+                        <label for="razaoSocial">Razão Social:</label>
+                        <input type="text" name="razaoSocial"
+                            id="razaoSocial" data-min-length="2" required>
+                    </div>
 
-                        <div class="col-sm-5">
-                            <label for="cnpj">CNPJ:</label>
-                            <input type="text" name="cnpj" id="cnpj" required>
-                        </div>
+                    <div class="col-sm-5">
+                        <label for="cnpj">CNPJ:</label>
+                        <input type="text" name="cnpj" id="cnpj" required>
+                    </div>
 
-                        <div class="col-sm-6">
-                            <label for="responsavel">Pessoa Responsável:</label>
-                            <input type="text" name="responsavel"
-                                id="responsavel" required>
-                        </div>
+                    <div class="col-sm-6">
+                        <label for="responsavel">Pessoa Responsável:</label>
+                        <input type="text" name="responsavel"
+                            id="responsavel" required>
+                    </div>
 
-                        <div class="col-sm-4">
-                            <label for="rua">Rua:</label>
-                            <input type="text" name="rua" id="rua" required>
-                        </div>
+                    <div class="col-sm-4">
+                        <label for="rua">Rua:</label>
+                        <input type="text" name="rua" id="rua" required>
+                    </div>
 
-                        <div class="col-sm-4">
-                            <label for="bairro">Bairro:</label>
-                            <input type="text" name="bairro" id="bairro"
-                                required>
-                        </div>
+                    <div class="col-sm-4">
+                        <label for="bairro">Bairro:</label>
+                        <input type="text" name="bairro" id="bairro"
+                            required>
+                    </div>
 
-                        <div class="col-sm-3">
-                            <label for="cep">CEP:</label>
-                            <input type="text" name="cep" id="cep" required>
-                        </div>
+                    <div class="col-sm-3">
+                        <label for="cep">CEP:</label>
+                        <input type="text" name="cep" id="cep" required>
+                    </div>
 
-                        <div class="col-sm-4 estado">
-                            <label for="UF">Estado:</label>
-                            <select id="UF" name="UF">
-                                <option value="">Selecione</option>
-                                <option value="AC">Acre</option>
-                                <option value="AL">Alagoas</option>
-                                <option value="AP">Amapá</option>
-                                <option value="AM">Amazonas</option>
-                                <option value="BA">Bahia</option>
-                                <option value="CE">Ceará</option>
-                                <option value="DF">Distrito Federal</option>
-                                <option value="ES">Espirito Santo</option>
-                                <option value="GO">Goiás</option>
-                                <option value="MA">Maranhão</option>
-                                <option value="MS">Mato Grosso do Sul</option>
-                                <option value="MT">Mato Grosso</option>
-                                <option value="MG">Minas Gerais</option>
-                                <option value="PA">Pará</option>
-                                <option value="PB">Paraíba</option>
-                                <option value="PR">Paraná</option>
-                                <option value="PE">Pernambuco</option>
-                                <option value="PI">Piauí</option>
-                                <option value="RJ">Rio de Janeiro</option>
-                                <option value="RN">Rio Grande do Norte</option>
-                                <option value="RS">Rio Grande do Sul</option>
-                                <option value="RO">Rondônia</option>
-                                <option value="RR">Roraima</option>
-                                <option value="SC">Santa Catarina</option>
-                                <option value="SP">São Paulo</option>
-                                <option value="SE">Sergipe</option>
-                                <option value="TO">Tocantins</option>
-                            </select>
-                        </div>
+                    <div class="col-sm-4 estado">
+                        <label for="UF">Estado:</label>
+                        <select id="UF" name="UF">
+                            <option value="">Selecione</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espirito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </div>
 
-                        <div class="col-sm-4">
-                            <label for="cidade">Cidade:</label>
-                            <input type="text" name="cidade" id="cidade"
-                                required>
-                        </div>
+                    <div class="col-sm-4">
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" name="cidade" id="cidade"
+                            required>
+                    </div>
 
-                        <div class="col-sm-3">
-                            <label for="rua">Rua:</label>
-                            <input type="text" name="rua" id="rua" required>
-                        </div>
+                    <div class="col-sm-3">
+                        <label for="rua">Rua:</label>
+                        <input type="text" name="rua" id="rua" required>
+                    </div>
 
-                        <div class="col-sm-4">
-                            <label for="bairro">Bairro:</label>
-                            <input type="text" name="bairro" id="bairro"
-                                required>
-                        </div>
+                    <div class="col-sm-4">
+                        <label for="bairro">Bairro:</label>
+                        <input type="text" name="bairro" id="bairro"
+                            required>
+                    </div>
 
-                        <div class="col-sm-4">
-                            <label for="cep">CEP:</label>
-                            <input type="text" name="cep" id="cep" required>
-                        </div>
+                    <div class="col-sm-4">
+                        <label for="cep">CEP:</label>
+                        <input type="text" name="cep" id="cep" required>
+                    </div>
 
-                        <div class="col-sm-3"></div>
+                    <div class="col-sm-3"></div>
 
-                        <div class="col-sm-12">
-                            <div class="row">
-                                <input class="col-sm-1" type="checkbox"
-                                    name="termos" id="termos" required>
-                                <label class="col-sm-11 termos" for="termos">Eu
-                                    li e aceito os Termos de uso.</label>
-                            </div>
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <input class="col-sm-1" type="checkbox"
+                                name="termos" id="termos" required>
+                            <label class="col-sm-11 termos" for="termos">Eu
+                                li e aceito os Termos de uso.</label>
                         </div>
+                    </div>
 
-                        <div class="full-box">
-                            <input class="mb-4" type="submit" name="btn-submit"
-                                value="Cadastrar">
+                    <div class="full-box">
+                        <input class="mb-4" type="submit" name="btn-submit"
+                            value="Cadastrar">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="footer-section d-flex">
+                    <div class="footer-section-one">
+                        <h3 class="footer-h2">Veja mais</h3>
+                        <div class="p">
+                            <a href="">
+                                <p>Como funciona</p>
+                            </a>
+                            <a href="FAQ.html">
+                                <p>FAQ para adoção de Pet</p>
+                            </a>
+                            <a href="">
+                                <p>Política de devoluções</p>
+                            </a>
                         </div>
-                    </form>
-                </div>
-            </section>
-            <footer>
-                <div class="container">
-                    <div class="footer-section d-flex">
-                        <div class="footer-section-one">
-                            <h3 class="footer-h2">Veja mais</h3>
-                            <div class="p">
-                                <a href="">
-                                    <p>Como funciona</p>
-                                </a>
-                                <a href="FAQ.html">
-                                    <p>FAQ para adoção de Pet</p>
-                                </a>
-                                <a href="">
-                                    <p>Política de devoluções</p>
-                                </a>
-                            </div>
+                    </div>
+                    <div class="footer-section-one">
+                        <h3 class="footer-h2">Tudo sobre PetAmigo</h3>
+                        <div class="p">
+                            <a href="">
+                                <p>Nossa história</p>
+                            </a>
+                            <a href="">
+                                <p>Ajuda</p>
+                            </a>
+                            <a href="">
+                                <p>Métodos de Pagamento</p>
+                            </a>
                         </div>
-                        <div class="footer-section-one">
-                            <h3 class="footer-h2">Tudo sobre PetAmigo</h3>
-                            <div class="p">
-                                <a href="">
-                                    <p>Nossa história</p>
-                                </a>
-                                <a href="">
-                                    <p>Ajuda</p>
-                                </a>
-                                <a href="">
-                                    <p>Métodos de Pagamento</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="footer-section-one">
-                            <h3 class="footer-h2">Se conecte com a gente</h3>
-                            <div class="p">
-                                <a href="">
-                                    <p>Facebook</p>
-                                </a>
-                                <a href="">
-                                    <p>Twitter</p>
-                                </a>
-                                <a href="">
-                                    <p>Instragram</p>
-                                </a>
-                            </div>
+                    </div>
+                    <div class="footer-section-one">
+                        <h3 class="footer-h2">Se conecte com a gente</h3>
+                        <div class="p">
+                            <a href="">
+                                <p>Facebook</p>
+                            </a>
+                            <a href="">
+                                <p>Twitter</p>
+                            </a>
+                            <a href="">
+                                <p>Instragram</p>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="copyright container">
-                    <div class="logo-footer d-flex">
-                        <i class="far fa-heart heart fs-1 test2"></i><i
-                            class="fas fa-paw test1 mt-3 fs-5"></i><a href=""><h3
-                                class="mt-2"> PetAmigo</h3></a>
-                    </div>
-                    <div class="copyright-footer"><p>Copyright 2021. Todos os
-                            direitos são reservação. Termos e condições e
-                            Privacidade & Política de cookies .</p> </div>
+            </div>
+            <div class="copyright container">
+                <div class="logo-footer d-flex">
+                    <i class="far fa-heart heart fs-1 test2"></i><i
+                        class="fas fa-paw test1 mt-3 fs-5"></i><a href=""><h3
+                            class="mt-2"> PetAmigo</h3></a>
                 </div>
-            </footer>
-        </div>
+                <div class="copyright-footer"><p>Copyright 2021. Todos os
+                        direitos são reservação. Termos e condições e
+                        Privacidade & Política de cookies .</p> </div>
+            </div>
+        </footer>
     </body>
 </html>

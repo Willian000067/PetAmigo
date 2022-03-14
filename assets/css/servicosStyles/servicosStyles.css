@@ -279,77 +279,62 @@ a {
 }
 
 .funcionamos {
-    margin-top: 100px;
     display: flex;
-}
-
-.funcionamos-two {
-    width: 150px;
-    height: 150px;
-    position: relative;
-    margin-top: 130px;
-    margin-left: 20px;
-    flex: 1;
+    margin-left: 5%;
+    justify-content: space-between;
 }
 
 .border-funcionamos-two-dog {
-    position: relative;
     width: 200px;
     height: 250px;
-    top: 160px;
-    left: -90px;
     border: 1px solid #003f58;
     box-sizing: border-box;
     border-radius: 250px 250px 0px 0px;
+    margin: -230px 0 0 180px;
 }
 
 .border-funcionamos-two-dog-one{
-    position: relative;
     width: 200px;
     height: 250px;
-    top: 110px;
-    left: 80px;
     border: 1px solid #e89588;
     box-sizing: border-box;
     border-radius: 0px 0px 250px 250px;
 }
 
 .dog-funcionamos-two {
-    position: absolute;
     height: 250px;
-    margin-left: 100px;
-    background: url(.jpg);
+    margin: -240px 0 0 20px;
     border-radius: 0px 0px 250px 250px;
-    top:130px;
-    left: 0px;
 }
 
 .dog-funcionamos {
-    position: absolute;
     height: 250px;
-    margin-left: 100px;
-    background: url(.jpg);
     border-radius: 250px 250px 0px 0px;
-    top:150px;
-    left: -220px;
+    margin: -100px 0 0 150px;
 }
 
 .funcionamos-three {
-    position: relative;
-    width: 1100px;
-    height: 500px;
-    right: 0;
-    top: 280px;
+    width: 70%;
+    height: 100%;
     background: #E1EFF3;
     border-radius: 500px 0px 0px 500px;
+    padding: 10px;
 }
 
 .funcionamos-three-title {
     color: #2f6272;
     font-weight: bold;
     font-size: 28px;
-    margin-left: 210px;
-    margin-top: -170px;
+    margin-left: 400px;
+}
+
+.lista-funcionamos {
+    margin-left: 400px;
+}
+
+.funcionamos-list-one, .funcionamos-list-two, .funcionamos-list-three {
+    display: flex;
+    margin: 5px;
 }
 
 span {
@@ -357,14 +342,15 @@ span {
 }
 
 .border-funcionamos {
-   position: absolute;
    width: 60px;
    height: 60px;
-   left: 150px;
-   bottom: 300px;
    border-radius: 100%;
    background: #fff;
    border: 1px solid #2f6272;
+}
+
+.border-funcionamos, .border-funcionamos-two, .border-funcionamos-three {
+    margin-right: 5px;
 }
 
 .h6-funcionamos {
@@ -375,10 +361,9 @@ span {
     margin-top: 15px; 
 }
 
-.funcionamos-text{
-    margin-top: 40px;
-    margin-left: 240px;
+.funcionamos-text {
     color:#2f6272;
+    width: 80%;
 }
 
 h4 {
@@ -387,22 +372,16 @@ h4 {
 }
 
 .border-funcionamos-two{
-    position: absolute;
     width: 60px;
     height: 60px;
-    left: 150px;
-    bottom: 170px;
     border-radius: 100%;
     background: #fff;
     border: 1px solid #2f6272;
 }
 
 .border-funcionamos-three {
-    position: absolute;
     width: 60px;
     height: 60px;
-    left: 150px;
-    bottom: 40px;
     border-radius: 100%;
     background: #fff;
     border: 1px solid #2f6272;
@@ -514,9 +493,9 @@ a {
     }
 }
 
-@media (max-width: 1119px) {
-    .funcionamos-text {
-        margin-top: 28px;
+@media (min-width: 1500px) {
+    .funcionamos {
+        margin-top: 320px;
     }
 }
 
@@ -533,20 +512,12 @@ a {
         position: inherit;
     }
 
-    .funcionamos-three {
-        top: -60px;
-    }
-
     footer {
         margin-top: 20px !important;
     }
 
     p {
         font-size: 14px;
-    }
-
-    .border-funcionamos {
-        bottom: 285px;
     }
 
     .border-funcionamos-two {
@@ -559,6 +530,18 @@ a {
 
     .services {
         margin-top: 100px;
+    }
+
+    .funcionamos {
+        margin-top: 20px;
+    }
+
+    .funcionamos-three-title {
+        margin-left: 150px;
+    }
+
+    .lista-funcionamos {
+        margin-left: 150px;
     }
 }
 
@@ -614,12 +597,18 @@ header>.container>.navbar {
         top: 140px;
     }
 
-    .funcionamos-two {
-        display: none;
+    .funcionamos {
+        margin: 0;
     }
 
     .funcionamos-three {
-        margin-top: 100px;
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .funcionamos-two {
+        display: none;
     }
     
     .dog-funcionamos {
@@ -632,10 +621,6 @@ header>.container>.navbar {
 
     .funcionamos-three-title {
         margin-top: 50px;
-    }
-
-    .border-funcionamos {
-        bottom: 313px;
     }
 
     .border-funcionamos-two {
@@ -680,6 +665,14 @@ header>.container>.navbar {
 
     .services-section-title .pet-shop {
         margin-left: 10px;
+    }
+
+    .funcionamos-three-title {
+        margin: 15px 0 0 15px;
+    }
+
+    .lista-funcionamos {
+        margin: 15px 0 0 15px;
     }
 }
 
@@ -794,10 +787,20 @@ header>.container>.navbar {
         top: 81px;
         width: 200px;
     }
+
+    .funcionamos-three {
+        border-radius: 0;
+        margin-top: 0;
+        position: inherit;
+        width: 100%;
+    }
+
+    .border-funcionamos, .border-funcionamos-two, .border-funcionamos-three {
+        position: inherit;
+    }
     
     .funcionamos-three-title {
-        margin-top: -10px;
-        margin-bottom: 15px;
+        margin: 0;
     }
     
     .funcionamos-text h4 {
@@ -807,10 +810,6 @@ header>.container>.navbar {
     .funcionamos-text p {
         font-size: 11px;
         margin-bottom: 10px;
-    }
-
-    .funcionamos-three {
-        height: 550px;
     }
 
     .funcionamos-three-title {

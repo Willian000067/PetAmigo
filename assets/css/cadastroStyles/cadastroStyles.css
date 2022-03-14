@@ -1,24 +1,3 @@
-@media (max-width: 1200px) {
-    .form {
-        margin: 1.2rem !important;
-    }
-
-    .container {
-        margin: 0 auto !important;
-        max-width: 100vw;
-    }
-
-    .collapse {
-        display: none !important;
-    }
-}
-
-@media (min-width: 992px) { 
-    .dropdown {
-        display: none;
-    }
-}
-
 .buttons {
     position: inherit !important;
 }
@@ -27,12 +6,12 @@
     margin: 0 !important;
 }
 
-header>.container {
+header .container {
     display: flex;
     width: 100vw;
 }
 
-header>.container>.navbar {
+header .container .navbar {
     width: 100vw;
 }
 
@@ -41,21 +20,9 @@ header>.container>.navbar {
     flex-direction: column;
 }
 
-.sections {
-    display: flex;
-    flex-direction: column;
-}
-
 .main {
-    display: flex;
-    margin-top:50px;
-    height: 48rem;
-    width: 100%;
+    margin-top: 68px;
     background: linear-gradient(45deg, rgba(26,81,99,255), rgba(26,81,99,255));
-}
-
-footer {
-    margin-top: 9.5rem !important;
 }
 
 body {
@@ -78,7 +45,6 @@ body {
 }
 
 .form {
-    flex: 1;
     margin: 20px 140px 0 140px;
 }
 
@@ -294,6 +260,21 @@ input[type="submit"]:hover {
     display: none;
 }
 
+@media (max-width: 1200px) {
+    .form {
+        margin: 1.2rem !important;
+    }
+
+    .container {
+        margin: 0 auto !important;
+        max-width: 100vw;
+    }
+
+    .collapse {
+        display: none !important;
+    }
+}
+
 @media (min-width: 1000px) {
     .dropdown{
         display: none;
@@ -303,5 +284,41 @@ input[type="submit"]:hover {
 @media (max-width: 960px) {
     header .container {
         margin-left: 50px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .dropdown {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    form {
+        padding: 25px;
+    }
+
+    .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-12 {
+        width: 100%;
+    }
+
+    .col-sm-11 {
+        width: 80%;
+    }
+
+    .col-sm-12 .row .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-1 {
+        width: 8.33333333%;
+    }
+
+    .row .col-sm-3 label {
+        font-size: 16px;
+    }
+
+    .row .col-sm-1:nth-child(4) {
+        margin-left: 25px;
     }
 }
