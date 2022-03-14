@@ -206,4 +206,9 @@ header a:hover {
     .link {
         text-decoration: none;
     }
+
+    .test1 {
+        margin: 12px 0 0 17px !important;
+        width: 10px !important;
+    }
 }
